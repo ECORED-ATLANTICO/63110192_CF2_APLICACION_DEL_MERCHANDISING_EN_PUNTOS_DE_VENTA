@@ -53,6 +53,33 @@ figcaption
 
 .bg-color-secundario-s20
   background-color: $color-secundario-s20
+.color-secundario
+  color: $color-secundario
+.bg-color-primario-p5
+  background-color: $color-primario-p5
+.bg-color-primario-p10
+  background-color: $color-primario-p10
+
+.w-78
+  max-width: 78px
+  margin: 0 auto
+
+.w-43
+  max-width: 43px
+  margin: 0 auto
+
+.w-95
+  max-width: 95px
+  margin: 0 auto
+
+.w-72
+  max-width: 72px
+  margin: 0 auto
+
+.tabs-a__tab
+  background-color: #F3F0EA
+  padding-top: 12px
+  padding-bottom: 12px
 
 .banner-text
   border-radius: 61px 0 64px 0
@@ -66,3 +93,32 @@ figcaption
 .z-2
   position: relative
   z-index: 2
+
+.etiqueta-title
+  width: fit-content
+  padding: 7px 20px 8px 30px
+  margin-left: 30px
+  position: relative
+  background-color: $color-primario
+  border-radius: 20px
+  display: block
+  @media screen and (min-width: $bp-min-md)
+    padding-left: 35px
+  &::before
+    content: url("../assets/curso/temas/tema3/title-icon.png")
+    position: absolute
+    left: -34px
+    top: 50%
+    transform: translateY(-50%)
+
+.bg-radio-text
+  background-image: url("../assets/curso/temas/tema3/bg-1.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.radio-img
+  position: absolute
+  width: 148px
+  top: -90px
+  left: 50px

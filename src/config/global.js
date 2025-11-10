@@ -36,28 +36,115 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Organización del espacio y ubicación de productos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Exhibiciones primarias y secundarias',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Ubicación estratégica de productos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Escaparatismo',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Planogramas y categorías',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Estímulo a la compra y estrategias de impulso',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Cross merchandising y ventas impulsivas',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Promociones en el punto de venta',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Activaciones y degustaciones',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Imagen, marca y experiencia visual',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: '<em>Branding</em> y <em>visual merchandising</em>',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              '<em>Neuromarketing</em> y <em>marketing</em> sensorial aplicado',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Caso de estudio',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Identificación del caso',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Diagnóstico técnico',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Análisis técnico del espacio comercial',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Propuesta de intervención estructurada',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Viabilidad financiera y operativa del proyecto',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Recomendaciones a la gerencia',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Conclusión',
+            hash: 't_4_7',
+          },
+        ],
       },
     ],
     subMenu: [
