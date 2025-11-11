@@ -267,7 +267,18 @@ figcaption
   &--termometro-frio
     &::before
       content: url("../assets/curso/temas/tema1/termometro-azul.svg")
+  &--video
+    &::before
+      content: url("../assets/curso/temas/tema1/video.svg")
+      top: 50%
+      transform: translate(-50%, -50%)
+      left: -20px
+
+.width-control
+  max-width: 225px
       
+.width-minimo
+  min-width: 140px
 
 .tabla-a.tabla-a--left
   td
@@ -275,3 +286,70 @@ figcaption
 
 .accesibilidad
   z-index: 3
+
+.slyder-a
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    background-image: url(../assets/bullets/arrow-white.svg)
+
+  .slyder-a__bullets__item
+    margin: 0 5px
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 0.4
+
+    @media screen and (min-width: $bp-min-sm)
+      margin: 0 8px
+
+    &.slyder-a__bullets__item--active
+      opacity: 1
+
+.fullwidth-bg
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: 120px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/temas/tema1/bg-1.png')
+
+    @media (max-width: 450px)
+      display: none
+
+  &--2::after
+    top: -30px
+    left: -50px
+    position: absolute
+    background: #F9F7F4
+    background: linear-gradient(180deg, rgba(249, 247, 244, 0) 0%, rgba(196, 209, 255, 0.59) 50%, rgba(235, 244, 255, 0) 100%)
+    height: 497px
+    width: 1440px
+
+    @media (max-width: 450px)
+      display: none
+
+.boton.barra-avance__boton--regresar
+  span 
+    color: $white !important
+
+.link-icon
+  font-size: 30px
+  padding: 4px 8px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.links-image
+  position: absolute
+  width: 89px
+  left: 0
+  transform: translateX(-50%)
+
+.link-text
+  max-width: 300px
+  color: #134336
+  background-color: #F2FBE4
+
+  &--large
+    max-width: 500px

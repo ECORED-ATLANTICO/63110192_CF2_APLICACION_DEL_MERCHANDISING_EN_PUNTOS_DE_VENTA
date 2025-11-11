@@ -33,7 +33,7 @@
             div
               p.mb-0 <em>Layout</em> libre o mixto: usado en tiendas especializadas, favorece la exploración.
 
-    .bg-fullwidth
+    .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
@@ -70,7 +70,8 @@
         #t_1_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
           h3 1.2	Ubicación estratégica de productos
 
-    .row.justify-content-center.align-items-center
+    .fullwidth-bg.fullwidth-bg--1
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-8.col-sm-6.col-lg-4.col-xl-3
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema1/5.png" alt="imagen de acompañamiento")
@@ -81,33 +82,108 @@
         .p-4.bg-color-secundario-s10.rounded-4.icon-before.icon-before--termometro-frio
           p.mb-0 <strong>Las zonas frías</strong>: espacios menos transitados, deben reactivarse mediante señalética atractiva, iluminación o reubicación de categorías.
 
+    p.z-2 Se recomienda revisar los siguientes videos donde se explican los diferentes tipos de exhibición.
+
+    .row.justify-content-center.align-items-stretch.z-2
+      .col-sm-10.col-lg-6.col-xl-5.mb-3.mb-lg-0
+        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-lg-flex.align-items-center.justify-content-evenly
+          .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
+            div
+              p.mb-0 <strong>Tipos de exhibición.</strong> 
+              p.mb-0 <strong>Fuente</strong>: SENA, 2022.
+            div.width-minimo
+              a.boton.color-acento-botones(href="https://youtu.be/zd_mKQqGEgo" target="_blank")
+                span <strong>Ir al enlace</strong>
+                i.fa-solid.fa-link
+      .col-sm-10.col-lg-6.col-xl-5
+        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
+          .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
+            div.width-control
+              p.mb-0 Conversando con Javier Vergara, experto en <strong>visual <em>merchandising</em> y diseño de tiendas</strong>.
+            div.width-minimo
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=kvg9VOYCISY" target="_blank")
+                span <strong>Ir al enlace</strong>
+                i.fa-solid.fa-link
 
     Separador
     #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.3	Escaparatismo
 
-    .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5.z-2
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El escaparatismo es una disciplina del merchandising visual que se encarga del diseño, planificación y montaje de los escaparates o vitrinas comerciales, con el objetivo de atraer la atención del público, comunicar mensajes de marca y estimular el deseo de compra. Va más allá de una simple exposición de productos: es una forma de comunicación visual estratégica, donde cada elemento desde la iluminación hasta la disposición de los objetos está pensado para generar un impacto emocional y sensorial en el consumidor.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5.z-2
       .col-xl-10
-        .row.justify-content-center.align-items-center
-          .col-lg-2.d-none.d-lg-block
-            figure
-              img.w-60(data-aos="fade-down" src="@/assets/curso/temas/tema1/4.svg" alt="imagen de acompañamiento")
-          .col-lg-10
-            p.mb-0 El escaparatismo no solo cumple una función estética, sino también comercial y comunicativa, ya que traduce la identidad de la marca en una experiencia visual que seduce, informa y persuade. Por esta razón, es considerado uno de los pilares más importantes del merchandising aplicado al punto de venta.
+        .p-4.rounded-4.bg-color-secundario-s10
+          .row.justify-content-center.align-items-center
+            .col-lg-1.d-none.d-lg-block
+              figure
+                img.w-60(data-aos="fade-down" src="@/assets/curso/temas/tema1/7.svg" alt="imagen de acompañamiento")
+            .col-lg-10
+              p.mb-0 El escaparatismo no solo cumple una función estética, sino también comercial y comunicativa, ya que traduce la identidad de la marca en una experiencia visual que seduce, informa y persuade. Por esta razón, es considerado uno de los pilares más importantes del merchandising aplicado al punto de venta.
 
     .row.justify-content-center
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-5
           span.etiqueta-title Componentes
 
-
+      .p-4.bg-slider.rounded-3
+        .tarjeta.tarjeta--blanca.p-4.py-5
+          SlyderA(tipo="b")
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 Producto	
+                p.mb-4.mb-lg-0 Es el elemento central de la vitrina. Debe presentarse de manera destacada, limpia y accesible visualmente. La selección de productos depende del objetivo de la campaña: puede ser promocional, de temporada o institucional
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/23.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 Iluminación	
+                p.mb-4.mb-lg-0 La luz dirige la mirada y resalta los puntos de interés. Un sistema de iluminación adecuado permite crear profundidad, generar contrastes y acentuar las texturas o colores de los productos. La luz cálida suele transmitir confort y cercanía; la fría, modernidad y limpieza.	
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/24.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 Color
+                p.mb-4.mb-lg-0 El color tiene un papel psicológico fundamental. Aporta identidad, comunica emociones y establece coherencia con la imagen de marca. Además, ayuda a jerarquizar los elementos dentro del escaparate, guiando la atención del observador.
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/25.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 Composición y equilibrio
+                p.mb-4.mb-lg-0 La forma en que se distribuyen los elementos determina la armonía visual. Se deben cuidar las proporciones, la simetría y la dirección de la mirada. Una buena composición combina creatividad con funcionalidad, garantizando que el mensaje visual sea claro y efectivo.
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/26.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 Los materiales y soportes
+                p.mb-4.mb-lg-0 Incluyen estructuras, maniquíes, bases, pedestales, fondos decorativos y elementos de ambientación. Su elección debe garantizar resistencia, funcionalidad y armonía con la propuesta visual.
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/27.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 El movimiento y la tecnología	
+                p.mb-4.mb-lg-0 El uso de recursos dinámicos, como pantallas digitales, efectos de luz, sonido o movimiento mecánico, aporta innovación y aumenta la capacidad de atracción del escaparate.
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/28.png', alt='Imagen ilustrativa')
+            .row.align-items-center.justify-content-evenly
+              .col-sm-10.col-lg-5.col-xl-4
+                h5.mb-4 El mensaje y la comunicación visual
+                p.mb-4.mb-lg-0 Todo escaparate transmite un mensaje, explícito o implícito. Este debe ser claro, coherente con la identidad de marca y comprensible para el público. Los textos, logotipos y elementos gráficos deben integrarse de forma equilibrada.
+              .col-sm-10.col-lg-6.col-xl-6
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/29.png', alt='Imagen ilustrativa')
+                  
 
     Separador
     #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
@@ -206,6 +282,7 @@
         img.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/14.png', alt='la figura muestra el uso de tecnología en la creación de planogramas, se muestran dispositivos tecnológicos, tales como Tablet, computadora y celular con planogramas diseñados.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
+    .fullwidth-bg.fullwidth-bg--2
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
@@ -276,53 +353,6 @@
         img.d-sm-none.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/16-mob.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
         img.d-none.d-sm-block.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/16.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
-
-
-
-
-
-
-
-
-//-  .row.align-items-center.justify-content-center.z-2
-//-       .col-8.col-sm-6.col-xl-4
-//-         figure
-//-           img.mb-4.mb-xl-0(src='@/assets/curso/temas/tema1/6.png', alt='Imagen ilustrativa' data-aos='fade-down')
-//-       .col-xl-8
-//-         TabsA.color-primario
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Leyes marco")
-//-             h4.mb-4 Leyes marco
-//-             p.mb-5 En Colombia, la Ley 105 de 1993 y la Ley 336 de 1996 establecen los principios generales del servicio público de transporte, definiendo su naturaleza y fundamentos reguladores.
-
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Decretos reglamentarios")
-//-             h4.mb-4 Decretos reglamentarios
-//-             p.mb-5 El Decreto 1079 de 2015 consolida la normatividad del sector y regula aspectos del transporte terrestre automotor de pasajeros, carga y servicios especiales.
-
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Resoluciones y circulares")
-//-             h4.mb-4 Resoluciones y circulares
-//-             p.mb-5 Emitidas por el Ministerio de Transporte y la Superintendencia de Transporte, especifican procedimientos técnicos y operativos, requisitos para vehículos, licencias, tarifas y servicios.
-
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Normativa de seguridad vial")
-//-             h4.mb-4 Normativa de seguridad vial
-//-             p.mb-5 Incluye regulaciones sobre límites de velocidad, uso de cinturón de seguridad, licencias de conducción, mantenimiento de vehículos y el Plan Estratégico de Seguridad Vial (PESV), obligatorio para empresas según la Ley 2251 de 2022 y sus decretos reglamentarios.
-
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Normativa ambiental")
-//-             h4.mb-4 Normativa ambiental
-//-             p.mb-5 Establece regulaciones sobre emisiones contaminantes, gestión de residuos peligrosos y uso de combustibles limpios, promoviendo el transporte sostenible.
-
-//-           .tarjeta.bg-palmera.bg-color-secundario-s5.p-4.pt-5(titulo="Convenios internacionales")
-//-             h4.mb-4 Convenios internacionales
-//-             p.mb-5 Incorporan lineamientos de organismos como la ONU e IATA para el transporte de mercancías peligrosas, adoptando prácticas armonizadas a nivel global.
-
-
-
-
-
-        
-
-
-
-
 
 </template>
 

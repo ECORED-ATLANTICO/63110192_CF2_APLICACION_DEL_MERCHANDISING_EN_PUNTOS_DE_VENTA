@@ -39,7 +39,7 @@
         .cajon.color-secundario.p-4
           p.mb-0 Las ventas impulsivas, por otro lado, se activan mediante la ubicación estratégica de productos en zonas de tránsito obligado, como cajas registradoras o entradas. Artículos de bajo precio, novedades o productos sensoriales (dulces, snacks, cosméticos) son ideales para estas zonas.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-xl-10
         .p-4.bg-color-primario-p10.rounded-4
           .row.align-items-center.justify-content-center
@@ -48,6 +48,19 @@
                 img.w-60(data-aos="fade-down" src="@/assets/curso/temas/tema2/4.svg" alt="imagen de acompañamiento")
             .col-lg-10.col-xl-11
               p.mb-0 La clave del éxito en estas estrategias radica en el conocimiento profundo del cliente, el diseño atractivo del espacio y el seguimiento de métricas de conversión. Martínez (2017) señala que estas tácticas son eficaces cuando están alineadas con las emociones del consumidor y los momentos clave del recorrido de compra. 
+    
+    .row.justify-content-center
+      .col-xl-10
+        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
+          .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
+            div
+              p.mb-0 <strong>¿Qué es una exhibición en cross category? ¿Cómo exhibir en cross merchandising?</strong> Ir al siguiente video, el cual aportará conocimientos relevantes y reforzará contenido de relacionado con el tema cross merchandising y ventas impulsivas.
+
+            div.width-minimo
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hnZfiJAA1nU" target="_blank")
+                span <strong>Ir al enlace</strong>
+                i.fa-solid.fa-link
+
     
     Separador
     .row.justify-content-center
