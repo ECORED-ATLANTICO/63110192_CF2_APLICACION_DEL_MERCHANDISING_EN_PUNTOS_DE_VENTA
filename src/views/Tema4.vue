@@ -22,7 +22,7 @@
         #t_4_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
           h3 4.1	Identificación del caso
 
-    .row.justify-content-center.mb-5.align-items-center
+    .row.justify-content-center.align-items-center
       .col-8.col-sm-6.col-lg-4.col-xl-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/2.png" alt="imagen de acompañamiento")
@@ -77,7 +77,7 @@
             .col-md-10.mb-4.mb-md-0
               p La iluminación general es débil y carece de un diseño estratégico para resaltar productos clave o secciones de interés. La ausencia de luz focalizada en categorías prioritarias genera un ambiente apagado que no invita a la permanencia ni estimula el deseo de compra. Esto reduce el impacto visual de las exhibiciones y desaprovecha el potencial de venta de artículos destacados.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-auto.col-xl-10
         .p-4.bg-carrito.rounded-4 
           .row.justify-content-center.align-items-center
@@ -162,7 +162,7 @@
           h5 Tabla 2.
           span Ejes estratégicos del plan de <em>merchandising</em>:
 
-        .tabla-a.color-acento-contenido.mb-4.mb-lg-5
+        .tabla-a.tabla-a--left.color-acento-contenido.mb-4.mb-lg-5
           table
             caption <strong>Fuente:</strong> SENA, 2025.
             thead
@@ -172,7 +172,7 @@
             tbody
               tr
                 td Rediseño del <em>layout</em>
-                td(colspan="2") mplementación de un layout tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
+                td(colspan="2") Implementación de un layout tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
               tr
                 td Aplicación de planogramas por categorías
                 td(colspan="2") Elaboración técnica con base en rotación, márgenes y complementariedad de productos.
@@ -185,7 +185,9 @@
                       | Productos de alta rentabilidad en zona de oro.
                     li.d-flex
                       i.fa-solid.fa-check
-                      | <em>Cross merchandising</em> con productos complementarios en puntos clave.
+                      | 
+                      div
+                        p.mb-0 <em>Cross merchandising</em> con productos complementarios en puntos clave.
                     li.d-flex
                       i.fa-solid.fa-check
                       | Exhibiciones primarias en entradas y cabeceras de góndola.
@@ -256,10 +258,90 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/14.png" alt="imagen de acompañamiento")
 
+    .row.justify-content-center.align-items-center
+      .col-8.col-sm-6.col-lg-4.col-xl-3.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/15.png" alt="imagen de acompañamiento")
+
+      .col-lg-8.col-xl-7
+        .titulo-sexto.color-secundario-s70.mb-4
+          h5 Tabla 4.
+          span Indicadores de desempeño proyectados
+
+        .tabla-a.color-acento-contenido
+          table
+            caption <strong>Fuente:</strong> SENA, 2025.
+            thead
+              tr(style="background-color: #D8E9FF;")
+                th(colspan="2") Indicador
+                th Línea base actual
+                th Meta a 3 meses
+            tbody
+              tr
+                td(colspan="2") Ticket promedio diario
+                td $18.400
+                td $23.000
+              tr
+                td(colspan="2") Rotación de productos por góndola
+                td 2.1
+                td 3.5
+              tr
+                td(colspan="2") Ventas por zona caliente
+                td 22 % del total
+                td 35 % del total
+              tr
+                td(colspan="2") Tasa de recompra de clientes
+                td 41 %
+                td 60 %
+
+    Separador
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+          h3 4.6	Recomendaciones a la gerencia
+
+    .row.justify-content-center.mb-4
+      .col-xl-10
+        .cajon.color-secundario.p-4
+          p.mb-0 Con base en el diagnóstico y la propuesta de intervención desarrollada, se plantean las siguientes recomendaciones dirigidas a la gerencia, orientadas a garantizar la ejecución eficiente del plan de merchandising y maximizar el retorno sobre la inversión. Estas sugerencias se fundamentan en criterios técnicos, buenas prácticas del sector retail y en la necesidad de implementar un modelo escalable y medible que permita una toma de decisiones informada:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.col-xl-7
+        .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
+          p.mb-0 Aprobar la inversión en una fase piloto de tres meses, priorizando las acciones de mayor impacto inmediato (layout, señalética y planogramas), con el fin de validar su efectividad antes de una implementación total.
+        .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
+          p.mb-0 Designar un coordinador interno de merchandising, con formación técnica y capacidad de gestión, que actúe como enlace entre la gerencia y el personal operativo, asegurando el cumplimiento de estándares y cronogramas.
+        .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca
+          p.mb-0 Implementar un sistema de seguimiento quincenal que incluya reportes de indicadores clave (ticket promedio, rotación de productos, ventas en zonas calientes y tasa de recompra), lo que permitirá medir avances y ajustar la estrategia en tiempo real.
+      .d-none.d-lg-block.col-lg-4.col-xl-3
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/16.png" alt="imagen de acompañamiento")
+
+    .row.justify-content-center.align-items-center
+      .col-8.col-sm-5.col-lg-4.col-xl-3
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/18.png" alt="imagen de acompañamiento")
+      .col-lg-8.col-xl-7
+        .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
+          p.mb-0 Evaluar el Retorno sobre la Inversión (ROI) al finalizar la fase piloto, utilizando métricas financieras y de comportamiento del cliente para determinar la viabilidad de escalar el modelo a otras áreas o sucursales.
+        .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
+          p.mb-0 Establecer un protocolo de actualización continua de planogramas, layout y acciones promocionales, evitando que la mejora inicial se diluya y asegurando la sostenibilidad de los resultados a mediano y largo plazo.
+        
+        
 
 
 
 
+    Separador
+    #t_4_7(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 4.7 Conclusión
+
+    img.z-2(data-aos="fade-up")(src="@/assets/curso/temas/tema4/19.png", alt="Imagen decorativa")
+
+    .row.justify-content-center.z-2.mb-5
+      .col-lg-10(data-aos="fade-down")
+        div.banner-text.bg-color-secundario-s20
+          p.mb-0 El presente análisis técnico demuestra que Supermercado Fresco presenta un alto potencial de mejora mediante la aplicación estructurada de estrategias de merchandising. La propuesta planteada no solo es viable desde el punto de vista financiero, sino que permitirá a la organización competir en igualdad de condiciones frente a grandes cadenas, generando valor para el cliente, eficiencia operativa y crecimiento en ventas.
 
 </template>
 
