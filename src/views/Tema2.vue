@@ -60,7 +60,6 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hnZfiJAA1nU" target="_blank")
                 span <strong>Ir al enlace</strong>
                 i.fa-solid.fa-link
-
     
     Separador
     .row.justify-content-center

@@ -194,22 +194,195 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Organización del espacio y ubicación de productos',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales – SENA. (2020). <em>Visual Merchandising Basics</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6-iaznLZYTg',
+    },
+    {
+      tema: 'Organización del espacio y ubicación de productos',
+      referencia:
+        'American Retails. (2023). <em>Conversación con Javier Vergara, experto en visual merchandising y diseño de tiendas en la región</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=kvg9VOYCISY',
+    },
+    {
+      tema: 'Estímulo a la compra y estrategias de impulso',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales - SENA. (2020). <em>Exhibición en cross category</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=hnZfiJAA1nU',
+    },
+    {
+      tema: 'Caso de estudio aplicabilidad.',
+      referencia:
+        'Ríos Quiñónez, M. B. (2024). Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
+      tipo: 'Revista',
+      link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Activación',
+      significado:
+        'Estrategia de marketing experiencial que busca generar interacción directa entre el consumidor y la marca en el punto de venta.',
+    },
+
+    {
+      termino: 'Ambientación',
+      significado:
+        'Conjunto de elementos sensoriales (música, aromas, iluminación, decoración) que crean una atmósfera específica en el establecimiento.',
+    },
+
+    {
+      termino: 'Branding',
+      significado:
+        'Proceso de construcción y gestión de la identidad visual, verbal y emocional de una marca.',
+    },
+
+    {
+      termino: 'Categoría',
+      significado:
+        'Agrupación de productos que comparten una función o uso similar, facilitando su organización en el punto de venta.',
+    },
+
+    {
+      termino: 'Circulación',
+      significado:
+        'Flujo de desplazamiento de los clientes dentro del punto de venta, influido por el diseño del layout.',
+    },
+
+    {
+      termino: 'Cross merchandising',
+      significado:
+        'Técnica que consiste en ubicar productos complementarios de diferentes categorías juntos para incentivar la compra cruzada.',
+    },
+
+    {
+      termino: 'Degustación',
+      significado:
+        'Prueba gratuita de un producto ofrecida al cliente con el fin de promover su compra inmediata.',
+    },
+
+    {
+      termino: 'Exhibición',
+      significado:
+        'Forma visual y estratégica en la que se presentan los productos al consumidor para maximizar su visibilidad y atractivo.',
+    },
+
+    {
+      termino: 'Experiencia de compra',
+      significado:
+        'Conjunto de percepciones, emociones y valoraciones que tiene el consumidor durante su interacción con el punto de venta.',
+    },
+
+    {
+      termino: 'Fidelización',
+      significado:
+        'Estrategia orientada a mantener y fortalecer la relación con los clientes para que realicen compras repetidas.',
+    },
+
+    {
+      termino: 'Góndola',
+      significado:
+        'Mueble de exhibición utilizado en los puntos de venta para organizar productos de forma vertical y horizontal.',
+    },
+
+    {
+      termino: 'Layout',
+      significado:
+        'Diseño o distribución física del espacio comercial que define el recorrido y disposición de mobiliario y productos.',
+    },
+
+    {
+      termino: 'Merchandising',
+      significado:
+        'Conjunto de técnicas orientadas a optimizar la presentación del producto en el punto de venta para estimular su rotación.',
+    },
+
+    {
+      termino: 'Neuromarketing',
+      significado:
+        'Aplicación de técnicas de neurociencia para analizar las respuestas emocionales del consumidor frente a estímulos de marketing.',
+    },
+
+    {
+      termino: 'Planograma',
+      significado:
+        'Representación gráfica que define la ubicación exacta de productos en las góndolas según criterios estratégicos.',
+    },
+
+    {
+      termino: 'POP (Point of Purchase)',
+      significado:
+        'Material publicitario ubicado en el punto de venta para apoyar la comunicación visual de promociones o productos.',
+    },
+
+    {
+      termino: 'Promoción',
+      significado:
+        'Acción comercial temporal destinada a incrementar la demanda de un producto a través de incentivos como descuentos o bonos.',
+    },
+
+    {
+      termino: 'Rotación',
+      significado:
+        'Frecuencia con la que un producto se vende y se repone en el punto de venta durante un periodo determinado.',
+    },
+
+    {
+      termino: 'Señalética',
+      significado:
+        'Sistema visual de orientación y comunicación dentro del punto de venta, compuesto por letreros, flechas, indicadores y colores.',
+    },
+
+    {
+      termino: 'Visual <em>merchandising</em>',
+      significado:
+        'Rama del merchandising enfocada en el diseño visual del espacio comercial para optimizar la presentación de productos y mejorar la experiencia del cliente.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Cámara de comercio de valencia (2022). Conceptos básicos de escaparatismo.',
+      link:
+        'https://www.camaravalencia.com/wp-content/uploads/2022/12/cuaderno-comercio-escaparatismo.pdf',
+    },
+
+    {
+      referencia:
+        'Editorial GG. (s. f.). Visual merchandising (2016). Editorial Gustavo Gili.',
+      link:
+        'https://editorialgg.com/media/catalog/product/9/7/9788425228681_inside.pdf',
+    },
+
+    {
+      referencia:
+        'Kotler, P., & Armstrong, G. (2021). Fundamentos de marketing (14.ª ed.). Pearson.',
+      link:
+        'https://tigubarcelos.wordpress.com/wp-content/uploads/2019/03/fundamentos-de-marketing-ld267.pdf',
+    },
+
+    {
+      referencia:
+        'Martínez, D. (s. f.). Merchandising (2017). Fundación Universitaria del Área Andina.',
+      link:
+        'https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf',
+    },
+
+    {
+      referencia:
+        'Martínez Cruz, H. (s. f.). El arte de seducir: Merchandising (1.ª ed.). ECOE Ediciones.',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2018/01/El-arte-de-seducir-1.pdf',
+    },
+
+    {
+      referencia:
+        'Ríos Quiñónez, M. B. (2024). Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
+      link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
   ],
   creditos: [
@@ -217,14 +390,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -232,9 +406,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yezid Arturo Choperena Guerrero',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jair Coll Gallardo',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -242,19 +421,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseñador <i>web</i>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <i>full stack junior</i>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -262,14 +441,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
