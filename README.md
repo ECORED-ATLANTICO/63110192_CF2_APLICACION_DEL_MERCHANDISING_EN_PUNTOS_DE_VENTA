@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/63110192_CF2_APLICACION_DEL_MERCHANDISING_EN_PUNTOS_DE_VENTA/](https://ecored-atlantico.github.io/63110192_CF2_APLICACION_DEL_MERCHANDISING_EN_PUNTOS_DE_VENTA/#/)
 
 #
 
