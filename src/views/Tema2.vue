@@ -9,7 +9,7 @@
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/2.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El <em>merchandising</em> va más allá de la organización física; su propósito principal es activar la compra. Por ello, el uso de técnicas de estimulación sensorial, promociones y asociaciones estratégicas es clave para generar ventas no planificadas y aumentar el valor del ticket promedio.

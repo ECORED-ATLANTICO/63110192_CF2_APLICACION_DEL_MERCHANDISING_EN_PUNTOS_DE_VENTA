@@ -51,14 +51,24 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
-.bg-color-secundario-s20
-  background-color: $color-secundario-s20
 .color-secundario
   color: $color-secundario
+.bg-color-secundario-s10
+  background-color: $color-secundario-s10
+.bg-color-secundario-s20
+  background-color: $color-secundario-s20
 .bg-color-primario-p5
   background-color: $color-primario-p5
 .bg-color-primario-p10
   background-color: $color-primario-p10
+.bg-color-primario-p20
+  background-color: $color-primario-p20
+.bg-color-terciario-t20
+  background-color: $color-terciario-t20
+.bg-color-terciario-t10
+  background-color: $color-terciario-t10
+.bg-color-acento-contenido-a5
+  background-color: $color-acento-contenido-a5
 
 .w-78
   max-width: 78px
@@ -121,6 +131,12 @@ figcaption
   background-position: center
   background-size: cover
 
+.bg-carrito
+  background-image: url("../assets/curso/temas/tema4/bg-1.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
 .bg-slider
   background-image: url("../assets/curso/temas/tema2/bg-slider.png")
   background-repeat: no-repeat
@@ -132,6 +148,11 @@ figcaption
   width: 148px
   top: -90px
   left: 50px
+
+.carrito-img
+  position: absolute
+  top: -90px
+  left: 0px
 
 .factores-slider
   &__tarjeta
@@ -183,3 +204,56 @@ figcaption
       font-size: 20px
     .fa-chevron-right
       font-size: 20px
+
+.border-line
+  border: 2px solid #9EC9FF
+  border-radius: 23px
+  margin-bottom: 8px
+
+.acordion
+  &__activo
+    background-color: $color-primario-p20
+
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones
+    color: #ffffff
+
+
+.tabs-a
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  &__tab
+    background-color: #E0E5E9
+
+.tabs-a__content-item
+  height: -webkit-fill-available
+
+.icon-before
+  position: relative
+  margin-left: 32px
+  padding-left: 50px !important
+  &::before
+    content: url("../assets/curso/temas/tema4/11.svg")
+    position: absolute
+    top: 19px
+    left: -32px
+    width: 65px
+
+  &--bandera
+    &::before
+      content: url("../assets/curso/temas/tema4/12.svg")
+      

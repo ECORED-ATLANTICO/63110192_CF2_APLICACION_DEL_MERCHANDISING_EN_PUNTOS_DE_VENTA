@@ -69,7 +69,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Cross merchandising y ventas impulsivas',
+            titulo: '<em>Cross merchandising</em> y ventas impulsivas',
             hash: 't_2_1',
           },
           {
