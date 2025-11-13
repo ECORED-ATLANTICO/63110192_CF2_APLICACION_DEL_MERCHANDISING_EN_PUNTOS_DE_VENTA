@@ -34,7 +34,7 @@
     .row.justify-content-center
       .col-xl-10
         .cajon.color-secundario.p-4
-          p.mb-0 <strong>La coherencia es clave</strong>: un supermercado orientado al ahorro suele usar colores brillantes, señalización clara y distribución optimizada para la rapidez; mientras que una tienda gourmet opta por tonos elegantes, música suave y espacios amplios que invitan a explorar sin prisa (Kotler & Keller, 2022).
+          p.mb-0 <strong>La coherencia es clave</strong>: un supermercado orientado al ahorro suele usar colores brillantes, señalización clara y distribución optimizada para la rapidez; mientras que una tienda <em>gourmet</em> opta por tonos elegantes, música suave y espacios amplios que invitan a explorar sin prisa (Kotler & Keller, 2022).
 
     .row.justify-content-center
       .col-xl-10
@@ -47,19 +47,19 @@
         p.mb-4 El <em>neuromarketing</em> utiliza hallazgos neurocientíficos para entender las reacciones emocionales de los consumidores y aplicarlos a la estrategia comercial. En el punto de venta, esto implica decisiones de diseño que estimulan áreas cerebrales vinculadas al placer, la memoria o el deseo (Plassmann et al., 2015).
         .p-4.rounded-4.bg-color-primario-p5
           ul.lista-ul--color
-            li.d-flex.gap-1
+            li.d-lg-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Vista</strong>: colores, orden y armonía visual.
-            li.d-flex.gap-1
+            li.d-lg-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Oído</strong>: música ambiente adaptada a la hora y perfil del cliente.
-            li.d-flex.gap-1
+            li.d-lg-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Olfato</strong>: aromas que refuercen la identidad del lugar.
-            li.d-flex.gap-1
+            li.d-lg-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Tacto</strong>: materiales y texturas coherentes con el posicionamiento.
-            li.d-flex.gap-1
+            li.d-lg-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Gusto</strong>: degustaciones que vinculen el producto con una experiencia positiva.
 
@@ -90,7 +90,7 @@
               .col-12.col-sm-8
                 h5 <em>Merchandising</em> visual
                 p Presentación estratégica del espacio y productos para comunicar la identidad de marca.
-                p <strong>Ejemplo</strong>. Tienda de ropa que utiliza maniquíes temáticos y vitrinas estacionales coherentes con su campaña.
+                p <strong>Ejemplo</strong>: tienda de ropa que utiliza maniquíes temáticos y vitrinas estacionales coherentes con su campaña.
               .col-4.col-sm-2
                 figure
                   img.w-78(src="@/assets/curso/temas/tema3/5.png")
@@ -100,7 +100,7 @@
               .col-12.col-sm-8
                 h5 <em>Branding</em> físico
                 p Traducción de la identidad visual y verbal de la marca al espacio físico.
-                p <strong>Ejemplo</strong>. Supermercado económico con señalización en colores vibrantes y tipografía simple.
+                p <strong>Ejemplo</strong>: supermercado económico con señalización en colores vibrantes y tipografía simple.
               .col-4.col-sm-2
                 figure
                   img.w-43(src="@/assets/curso/temas/tema3/6.png")
@@ -110,7 +110,7 @@
               .col-12.col-sm-8
                 h5 <em>Neuromarketing</em> aplicado
                 p Uso de estímulos que activan respuestas cerebrales positivas hacia la marca.
-                p <strong>Ejemplo</strong>. Iluminación cálida en zona de frescos para realzar la percepción de calidad.
+                p <strong>Ejemplo</strong>: iluminación cálida en zona de frescos para realzar la percepción de calidad.
               .col-4.col-sm-2
                 figure
                   img.w-95(src="@/assets/curso/temas/tema3/7.png")
@@ -120,7 +120,7 @@
               .col-12.col-sm-8
                 h5 <em>Marketing</em> sensorial
                 p Estimulación coordinada de los sentidos para reforzar la experiencia de compra.
-                p <strong>Ejemplo</strong>. Aroma a pan recién horneado en la sección de panadería; música lounge en zona gourmet.
+                p <strong>Ejemplo</strong>: aroma a pan recién horneado en la sección de panadería; música lounge en zona <em>gourmet</em>.
               .col-4.col-sm-2
                 figure
                   img.w-72(src="@/assets/curso/temas/tema3/8.png")

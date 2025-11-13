@@ -70,7 +70,6 @@
         #t_1_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
           h3 1.2	Ubicación estratégica de productos
 
-    .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-8.col-sm-6.col-lg-4.col-xl-3
         figure
@@ -82,6 +81,7 @@
         .p-4.bg-color-secundario-s10.rounded-4.icon-before.icon-before--termometro-frio
           p.mb-0 <strong>Las zonas frías</strong>: espacios menos transitados, deben reactivarse mediante señalética atractiva, iluminación o reubicación de categorías.
 
+    .fullwidth-bg.fullwidth-bg--1
     p.z-2 Se recomienda revisar los siguientes videos donde se explican los diferentes tipos de exhibición.
 
     .row.justify-content-center.align-items-stretch.z-2
@@ -209,7 +209,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Recopilación de datos de SKU
                 p.mb-4 Se recolectan dimensiones y fotos de cada producto del inventario.
-                p.mb-4 <strong>Objetivo principal</strong>. Garantizar precisión y uso eficiente del espacio.
+                p.mb-4 <strong>Objetivo principal</strong>: Garantizar precisión y uso eficiente del espacio.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/31.png")
@@ -219,7 +219,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Registro de equipos y estanterías
                 p.mb-4 Se registran los tipos y tamaños de estanterías y accesorios en la tienda.
-                p.mb-4 <strong>Objetivo principal</strong>. Asegurar compatibilidad del planograma con la infraestructura.
+                p.mb-4 <strong>Objetivo principal</strong>: Asegurar compatibilidad del planograma con la infraestructura.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/8.png")
@@ -229,7 +229,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Creación del CDT (categoría / cliente)	
                 p.mb-4 Se analiza el perfil del cliente y su comportamiento por categoría.
-                p.mb-4 <strong>Objetivo principal</strong>. Mejorar la ubicación del producto según preferencias del cliente.
+                p.mb-4 <strong>Objetivo principal</strong>: Mejorar la ubicación del producto según preferencias del cliente.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/9.png")
@@ -239,7 +239,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Diseño del planograma con software
                 p.mb-4 Se usa software especializado y se valida con gestores de categoría.
-                p.mb-4 <strong>Objetivo principal</strong>. Alinear el diseño con metas comerciales.
+                p.mb-4 <strong>Objetivo principal</strong>: Alinear el diseño con metas comerciales.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/10.png")
@@ -249,7 +249,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Formación del personal en <em>visual merchandising</em>
                 p.mb-4 Se capacita al equipo sobre el uso del software y normas de exhibición.
-                p.mb-4 <strong>Objetivo principal</strong>. Asegurar ejecución coherente en tiendas.
+                p.mb-4 <strong>Objetivo principal</strong>: Asegurar ejecución coherente en tiendas.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/11.png")
@@ -259,7 +259,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Revisión del rendimiento del planograma
                 p.mb-4 Se analiza el desempeño del planograma usando datos de ventas y métricas.
-                p.mb-4 <strong>Objetivo principal</strong>. Realizar ajustes estratégicos basados en resultados.
+                p.mb-4 <strong>Objetivo principal</strong>: Realizar ajustes estratégicos basados en resultados.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/12.png")
@@ -269,7 +269,7 @@
               .col-12.col-sm-7
                 h5.mb-4 Plan de comunicación e integración
                 p.mb-4 Se coordina la implementación del planograma entre departamentos.
-                p.mb-4 <strong>Objetivo principal</strong>. Facilitar ejecución y actualización efectiva.
+                p.mb-4 <strong>Objetivo principal</strong>: Facilitar ejecución y actualización efectiva.
               .col-4.col-sm-3
                 figure
                   img(src="@/assets/curso/temas/tema1/13.png")
