@@ -46,9 +46,9 @@ figcaption
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
 .banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
+  @media screen and (max-width: $bp-min-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
+  @media screen and (max-width: $bp-min-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 .color-secundario
@@ -257,10 +257,27 @@ figcaption
 
   &--bandera
     &::before
+      top: 55%
+      transform: translateY(-50%)
       content: url("../assets/curso/temas/tema4/12.svg")
+      @media (min-width: $bp-min-lg)
+        top: 19px
+        transform: none
   &--tuerca
     &::before
       content: url("../assets/curso/temas/tema4/17.png")
+  &--location
+    margin-left: 22px
+    &::before
+      top: 0
+      left: -25px
+      content: url("../assets/curso/temas/tema4/4.svg")
+  &--folder
+    margin-left: 22px
+    &::before
+      top: 0
+      left: -25px
+      content: url("../assets/curso/temas/tema4/5.svg")
   &--termometro
     &::before
       content: url("../assets/curso/temas/tema1/termometro-naranja.svg")
@@ -313,18 +330,6 @@ figcaption
     left: -50px
     position: absolute
     content: url('../assets/curso/temas/tema1/bg-1.png')
-
-    @media (max-width: 450px)
-      display: none
-
-  &--2::after
-    top: -30px
-    left: -50px
-    position: absolute
-    background: #F9F7F4
-    background: linear-gradient(180deg, rgba(249, 247, 244, 0) 0%, rgba(196, 209, 255, 0.59) 50%, rgba(235, 244, 255, 0) 100%)
-    height: 497px
-    width: 1440px
 
     @media (max-width: 450px)
       display: none

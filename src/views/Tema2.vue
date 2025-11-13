@@ -49,12 +49,12 @@
             .col-lg-10.col-xl-11
               p.mb-0 La clave del éxito en estas estrategias radica en el conocimiento profundo del cliente, el diseño atractivo del espacio y el seguimiento de métricas de conversión. Martínez (2017) señala que estas tácticas son eficaces cuando están alineadas con las emociones del consumidor y los momentos clave del recorrido de compra. 
     
-    .row.justify-content-center
+    .row.justify-content-center.z-2
       .col-xl-10
-        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
+        .p-4.bg-color-terciario-t20.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
           .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
             div
-              p.mb-0 <strong>¿Qué es una exhibición en cross category? ¿Cómo exhibir en cross merchandising?</strong> Ir al siguiente video, el cual aportará conocimientos relevantes y reforzará contenido de relacionado con el tema cross merchandising y ventas impulsivas.
+              p.mb-0 <strong>¿Qué es una exhibición en cross category? ¿Cómo exhibir en <em>cross merchandising</em>?</strong> Ir al siguiente video, el cual aportará conocimientos relevantes y reforzará contenido de relacionado con el tema <em>cross merchandising</em> y ventas impulsivas.
 
             div.width-minimo
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hnZfiJAA1nU" target="_blank")
@@ -62,12 +62,13 @@
                 i.fa-solid.fa-link
     
     Separador
-    .row.justify-content-center
+    .row.justify-content-center.z-2
       .col-xl-10
         #t_2_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
           h3 2.2 Promociones en el punto de venta
 
-    .row.justify-content-center.mb-4.factores-slider.align-items-center
+    .fullwidth-bg.fullwidth-bg--1
+    .row.justify-content-center.mb-4.factores-slider.align-items-center.z-2
       .col-8.col-sm-4.col-lg-4.col-xl-3
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema2/6.png" alt="imagen de acompañamiento")
@@ -81,13 +82,13 @@
               p Ajuste directo del precio para incentivar la compra inmediata.
               p.mb-0 <strong>Ejemplos.</strong>
               ul.lista-ul--color
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | 2x1: paga uno y llévate dos.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Descuento directo: 20 % menos sobre el precio original.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Precio especial: oferta exclusiva por tiempo limitado.
 
@@ -96,13 +97,13 @@
               p Añade beneficios adicionales sin modificar el precio base.
               p.mb-0 <strong>Ejemplos.</strong>
               ul.lista-ul--color
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Bonificación: 50 ml extra sin costo.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Producto adicional: compra un shampoo y recibe acondicionador gratis.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Empaque promocional: pack ahorro o combo familiar.
 
@@ -111,13 +112,13 @@
               p Buscan conectar con el consumidor a través de experiencias o causas.
               p.mb-0 <strong>Ejemplos.</strong>
               ul.lista-ul--color
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Sorteo: participa en un premio por comprar.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Concurso: comparte tu experiencia en redes y gana.
-                li.d-flex
+                li.d-flex.gap-1
                   i.fa-solid.fa-check
                   | Causa social: donación de un porcentaje de ventas a una ONG.
 

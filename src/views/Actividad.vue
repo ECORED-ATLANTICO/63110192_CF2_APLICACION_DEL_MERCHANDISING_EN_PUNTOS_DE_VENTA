@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Aplicabilidad del merchandising.',
+      tema: 'Aplicabilidad del <em>merchandising</em>.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de la ejecución del merchandising alineados a las necesidades del mercado y perfil del comprador.',
+        '<b> Objetivo:</b> evaluar la comprensión de la ejecución del <em>merchandising</em> alineados a las necesidades del mercado y perfil del comprador.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -120,7 +120,7 @@ export default {
         {
           id: 5,
           texto:
-            'El cross merchandising consiste en ubicar juntos productos complementarios para incentivar compras cruzadas.',
+            'El <em>cross merchandising</em> consiste en ubicar juntos productos complementarios para incentivar compras cruzadas.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -212,7 +212,7 @@ export default {
         {
           id: 9,
           texto:
-            'El visual merchandising no influye en la identidad de marca del establecimiento.',
+            'El <em>visual merchandising</em> no influye en la identidad de marca del establecimiento.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -303,7 +303,7 @@ export default {
         {
           id: 13,
           texto:
-            'El branding físico traduce la identidad visual y verbal de la marca al espacio físico del punto de venta.',
+            'El <em>branding</em> físico traduce la identidad visual y verbal de la marca al espacio físico del punto de venta.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

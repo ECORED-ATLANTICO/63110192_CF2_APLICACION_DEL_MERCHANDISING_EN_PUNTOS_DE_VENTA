@@ -217,7 +217,7 @@ export default {
     {
       tema: 'Caso de estudio aplicabilidad.',
       referencia:
-        'Ríos Quiñónez, M. B. (2024). Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
+        'Ríos Quiñónez, M. B. (2024). Análisis del <em>merchandising</em> visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
       tipo: 'Revista',
       link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
@@ -236,7 +236,7 @@ export default {
     },
 
     {
-      termino: 'Branding',
+      termino: '<em>Branding</em>',
       significado:
         'Proceso de construcción y gestión de la identidad visual, verbal y emocional de una marca.',
     },
@@ -254,7 +254,7 @@ export default {
     },
 
     {
-      termino: 'Cross merchandising',
+      termino: '<em>Cross merchandising</em>',
       significado:
         'Técnica que consiste en ubicar productos complementarios de diferentes categorías juntos para incentivar la compra cruzada.',
     },
@@ -296,7 +296,7 @@ export default {
     },
 
     {
-      termino: 'Merchandising',
+      termino: '<em>Merchandising</em>',
       significado:
         'Conjunto de técnicas orientadas a optimizar la presentación del producto en el punto de venta para estimular su rotación.',
     },
@@ -338,50 +338,50 @@ export default {
     },
 
     {
-      termino: 'Visual <em>merchandising</em>',
+      termino: '<em>Visual merchandising</em>',
       significado:
-        'Rama del merchandising enfocada en el diseño visual del espacio comercial para optimizar la presentación de productos y mejorar la experiencia del cliente.',
+        'Rama del <em>merchandising</em> enfocada en el diseño visual del espacio comercial para optimizar la presentación de productos y mejorar la experiencia del cliente.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Cámara de comercio de valencia (2022). Conceptos básicos de escaparatismo.',
+        'Cámara de comercio de valencia (2022). <em>Conceptos básicos de escaparatismo.</em>',
       link:
         'https://www.camaravalencia.com/wp-content/uploads/2022/12/cuaderno-comercio-escaparatismo.pdf',
     },
 
     {
       referencia:
-        'Editorial GG. (s. f.). Visual merchandising (2016). Editorial Gustavo Gili.',
+        'Editorial GG. (s. f.). <em>Visual merchandising</em> (2016). Editorial Gustavo Gili.',
       link:
         'https://editorialgg.com/media/catalog/product/9/7/9788425228681_inside.pdf',
     },
 
     {
       referencia:
-        'Kotler, P., & Armstrong, G. (2021). Fundamentos de marketing (14.ª ed.). Pearson.',
+        'Kotler, P., & Armstrong, G. (2021). <em>Fundamentos de marketing</em> (14.ª ed.). Pearson.',
       link:
         'https://tigubarcelos.wordpress.com/wp-content/uploads/2019/03/fundamentos-de-marketing-ld267.pdf',
     },
 
     {
       referencia:
-        'Martínez, D. (s. f.). Merchandising (2017). Fundación Universitaria del Área Andina.',
+        'Martínez, D. (s. f.). <em>Merchandising</em> (2017). Fundación Universitaria del Área Andina.',
       link:
         'https://digitk.areandina.edu.co/bitstream/handle/areandina/1370/Merchandising.pdf',
     },
 
     {
       referencia:
-        'Martínez Cruz, H. (s. f.). El arte de seducir: Merchandising (1.ª ed.). ECOE Ediciones.',
+        'Martínez Cruz, H. (s. f.). <em>El arte de seducir: Merchandising</em> (1.ª ed.). ECOE Ediciones.',
       link:
         'https://www.ecoeediciones.com/wp-content/uploads/2018/01/El-arte-de-seducir-1.pdf',
     },
 
     {
       referencia:
-        'Ríos Quiñónez, M. B. (2024). Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
+        'Ríos Quiñónez, M. B. (2024). <em>Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ</em>. Res Non Verba Revista Científica, 14(1), 1–17.',
       link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
   ],

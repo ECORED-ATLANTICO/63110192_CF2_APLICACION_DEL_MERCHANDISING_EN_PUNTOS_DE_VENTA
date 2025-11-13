@@ -1,1 +1,1 @@
-module.exports = 'Aplicación del merchandising en puntos de venta'
+module.exports = 'Ejecución del <em>merchandising</em>'

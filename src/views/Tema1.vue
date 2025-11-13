@@ -12,22 +12,22 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema1/1.png" alt="imagen de acompañamiento")
       .col-lg-8.col-xl-7
-        p La organización del espacio en el punto de venta representa un elemento fundamental en la estrategia comercial del merchandising, ya que influye directamente en el comportamiento del consumidor, en la experiencia de compra y en los niveles de conversión. Una disposición eficiente permite maximizar el uso del área disponible, generar un flujo lógico de circulación, destacar productos estratégicos y reforzar la imagen del establecimiento.
+        p La organización del espacio en el punto de venta representa un elemento fundamental en la estrategia comercial del <em>merchandising</em>, ya que influye directamente en el comportamiento del consumidor, en la experiencia de compra y en los niveles de conversión. Una disposición eficiente permite maximizar el uso del área disponible, generar un flujo lógico de circulación, destacar productos estratégicos y reforzar la imagen del establecimiento.
         .cajon.color-secundario.p-4.mb-3
           p.mb-0 Según Martínez Cruz (s. f.), el diseño del espacio debe ser funcional, estético y adaptado al perfil del consumidor, teniendo en cuenta los principios de circulación, visibilidad, accesibilidad y jerarquía de productos. El layout, o diseño de la planta del local, debe diseñarse para orientar al cliente a recorrer la mayor parte del espacio disponible, facilitando el contacto visual con los productos de mayor margen.
         p Entre los layouts más comunes se encuentran:
         ul.lista-ul--color
-          li.d-flex
+          li.d-flex.gap-1
             i.fa-solid.fa-check
             | 
             div
               p.mb-0 <em>Grid</em> (rejilla): óptimo para supermercados, maximiza la eficiencia operativa.
-          li.d-flex
+          li.d-flex.gap-1
             i.fa-solid.fa-check
             | 
             div
               p.mb-0 <em>Loop</em> o <em>racetrack</em>: guía al consumidor por un circuito cerrado.
-          li.d-flex
+          li.d-flex.gap-1
             i.fa-solid.fa-check
             | 
             div
@@ -86,7 +86,7 @@
 
     .row.justify-content-center.align-items-stretch.z-2
       .col-sm-10.col-lg-6.col-xl-5.mb-3.mb-lg-0
-        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-lg-flex.align-items-center.justify-content-evenly
+        .p-4.bg-color-terciario-t20.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-lg-flex.align-items-center.justify-content-evenly
           .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
             div
               p.mb-0 <strong>Tipos de exhibición.</strong> 
@@ -96,10 +96,10 @@
                 span <strong>Ir al enlace</strong>
                 i.fa-solid.fa-link
       .col-sm-10.col-lg-6.col-xl-5
-        .p-4.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
+        .p-4.bg-color-terciario-t20.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
           .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
             div.width-control
-              p.mb-0 Conversando con Javier Vergara, experto en <strong>visual <em>merchandising</em> y diseño de tiendas</strong>.
+              p.mb-0 Conversando con Javier Vergara, experto en <strong><em>visual merchandising</em> y diseño de tiendas</strong>.
             div.width-minimo
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=kvg9VOYCISY" target="_blank")
                 span <strong>Ir al enlace</strong>
@@ -114,7 +114,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El escaparatismo es una disciplina del merchandising visual que se encarga del diseño, planificación y montaje de los escaparates o vitrinas comerciales, con el objetivo de atraer la atención del público, comunicar mensajes de marca y estimular el deseo de compra. Va más allá de una simple exposición de productos: es una forma de comunicación visual estratégica, donde cada elemento desde la iluminación hasta la disposición de los objetos está pensado para generar un impacto emocional y sensorial en el consumidor.
+        p.mb-0 El escaparatismo es una disciplina del <em>merchandising</em> visual que se encarga del diseño, planificación y montaje de los escaparates o vitrinas comerciales, con el objetivo de atraer la atención del público, comunicar mensajes de marca y estimular el deseo de compra. Va más allá de una simple exposición de productos: es una forma de comunicación visual estratégica, donde cada elemento desde la iluminación hasta la disposición de los objetos está pensado para generar un impacto emocional y sensorial en el consumidor.
 
     .row.justify-content-center.mb-5.z-2
       .col-xl-10
@@ -124,7 +124,7 @@
               figure
                 img.w-60(data-aos="fade-down" src="@/assets/curso/temas/tema1/7.svg" alt="imagen de acompañamiento")
             .col-lg-10
-              p.mb-0 El escaparatismo no solo cumple una función estética, sino también comercial y comunicativa, ya que traduce la identidad de la marca en una experiencia visual que seduce, informa y persuade. Por esta razón, es considerado uno de los pilares más importantes del merchandising aplicado al punto de venta.
+              p.mb-0 El escaparatismo no solo cumple una función estética, sino también comercial y comunicativa, ya que traduce la identidad de la marca en una experiencia visual que seduce, informa y persuade. Por esta razón, es considerado uno de los pilares más importantes del <em>merchandising</em> aplicado al punto de venta.
 
     .row.justify-content-center
       .col-xl-10
@@ -186,7 +186,7 @@
                   
 
     Separador
-    #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+    #t_1_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.4	Planogramas y categorías
 
     img.z-2(data-aos="fade-up")(src="@/assets/curso/temas/tema1/30.png", alt="Imagen decorativa")
@@ -244,10 +244,10 @@
                 figure
                   img(src="@/assets/curso/temas/tema1/10.png")
 
-          .tarjeta.bg-color-primario-p10.p-4.pt-5.h-100.d-flex.align-items-center(titulo="Formación del personal en visual merchandising")
+          .tarjeta.bg-color-primario-p10.p-4.pt-5.h-100.d-flex.align-items-center(titulo="Formación del personal en <em>visual merchandising</em>")
             .row.align-items-center.justify-content-around
               .col-12.col-sm-7
-                h5.mb-4 Formación del personal en visual merchandising
+                h5.mb-4 Formación del personal en <em>visual merchandising</em>
                 p.mb-4 Se capacita al equipo sobre el uso del software y normas de exhibición.
                 p.mb-4 <strong>Objetivo principal</strong>. Asegurar ejecución coherente en tiendas.
               .col-4.col-sm-3
@@ -282,7 +282,7 @@
         img.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/14.png', alt='la figura muestra el uso de tecnología en la creación de planogramas, se muestran dispositivos tecnológicos, tales como Tablet, computadora y celular con planogramas diseñados.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
-    .fullwidth-bg.fullwidth-bg--2
+    .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
@@ -350,8 +350,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Beneficios de implementar planogramas correctamente 
-        img.d-sm-none.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/16-mob.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
-        img.d-none.d-sm-block.mb-2(data-aos="fade-up", src='@/assets/curso/temas/tema1/16.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
+        img.d-sm-none.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16-mob.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
+        img.d-none.d-sm-block.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
 </template>

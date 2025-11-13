@@ -31,12 +31,12 @@
           .col-lg-8.pe-lg-0
             .p-3.py-2.border-line
               p.mb-0 <strong>Nombre del punto de venta</strong>: Supermercado Fresco.
-            .p-3.py-2.border-line
+            .p-3.py-2.border-line.icon-before.icon-before--location
               p.mb-0 <strong>Ubicación</strong>: Barranquilla, Atlántico.
           .col-lg-4.d-none.d-lg-block
             figure
               img(data-aos="fade-down" src="@/assets/curso/temas/tema4/3.png" alt="imagen de acompañamiento")
-        .p-4.py-3.border-line
+        .p-4.py-3.border-line.icon-before.icon-before--folder
           p.mb-0 Contexto general: Fresco es un supermercado tradicional ubicado en una zona residencial de Barranquilla, con una superficie de ventas de aproximadamente 400 m².<br> A pesar de contar con una clientela regular, ha experimentado una disminución en las ventas en los últimos dos trimestres. El entorno competitivo ha cambiado debido a la llegada de cadenas de formato <em>hard discount</em> como Tiendas Ara y D1.<br> Ante esta situación, la gerencia ha solicitado un análisis técnico de <em>merchandising</em> que contemple acciones viables para revitalizar el punto de venta, aumentar el ticket promedio y fidelizar a los clientes actuales.
 
     Separador
@@ -63,19 +63,19 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-terciario-t20")
           .row(titulo="Falta de planificación en el layout comercial")
             .col-md-10.mb-4.mb-md-0
-              p Las góndolas presentan una organización aleatoria sin un flujo de circulación definido. Esto provoca que el recorrido del cliente sea desordenado, reduciendo la exposición a productos estratégicos y limitando las oportunidades de compra por impulso. Además, dificulta la implementación de estrategias de ventas cruzadas y disminuye el tiempo de permanencia en el establecimiento.
+              p.ms-2.ps-5 Las góndolas presentan una organización aleatoria sin un flujo de circulación definido. Esto provoca que el recorrido del cliente sea desordenado, reduciendo la exposición a productos estratégicos y limitando las oportunidades de compra por impulso. Además, dificulta la implementación de estrategias de ventas cruzadas y disminuye el tiempo de permanencia en el establecimiento.
           .row(titulo="Ausencia total de planogramas")
             .col-md-10.mb-4.mb-md-0
-              p La ubicación y disposición de los productos dependen del criterio subjetivo del personal operativo, lo que genera inconsistencias en la exhibición. Esta ausencia de estandarización dificulta la reposición eficiente, afecta la coherencia visual de la tienda y transmite una imagen de desorganización que puede impactar negativamente en la percepción del cliente.
+              p.ms-2.ps-5 La ubicación y disposición de los productos dependen del criterio subjetivo del personal operativo, lo que genera inconsistencias en la exhibición. Esta ausencia de estandarización dificulta la reposición eficiente, afecta la coherencia visual de la tienda y transmite una imagen de desorganización que puede impactar negativamente en la percepción del cliente.
           .row(titulo="Espacios subutilizados")
             .col-md-10.mb-4.mb-md-0
-              p Las denominadas “zonas calientes”; áreas con mayor tránsito y visibilidad, no han sido identificadas ni aprovechadas para potenciar la rotación de productos de alta rentabilidad. Esto representa una pérdida de oportunidades para incrementar ventas, mejorar el ticket promedio y fortalecer la presencia de marcas estratégicas en puntos clave.
+              p.ms-2.ps-5 Las denominadas “zonas calientes”; áreas con mayor tránsito y visibilidad, no han sido identificadas ni aprovechadas para potenciar la rotación de productos de alta rentabilidad. Esto representa una pérdida de oportunidades para incrementar ventas, mejorar el ticket promedio y fortalecer la presencia de marcas estratégicas en puntos clave.
           .row(titulo="Deficiencia en señalética y escasa comunicación visual")
             .col-md-10.mb-4.mb-md-0
-              p La señalización interna es insuficiente y muchas promociones no cuentan con material visual atractivo ni precios visibles. Esta carencia dificulta que el cliente identifique ofertas o promociones, reduce la claridad en la información y puede generar desconfianza en el proceso de compra. La falta de precios estandarizados también limita la competitividad y la transparencia percibida.
+              p.ms-2.ps-5 La señalización interna es insuficiente y muchas promociones no cuentan con material visual atractivo ni precios visibles. Esta carencia dificulta que el cliente identifique ofertas o promociones, reduce la claridad en la información y puede generar desconfianza en el proceso de compra. La falta de precios estandarizados también limita la competitividad y la transparencia percibida.
           .row(titulo="Iluminación insuficiente")
             .col-md-10.mb-4.mb-md-0
-              p La iluminación general es débil y carece de un diseño estratégico para resaltar productos clave o secciones de interés. La ausencia de luz focalizada en categorías prioritarias genera un ambiente apagado que no invita a la permanencia ni estimula el deseo de compra. Esto reduce el impacto visual de las exhibiciones y desaprovecha el potencial de venta de artículos destacados.
+              p.ms-2.ps-5 La iluminación general es débil y carece de un diseño estratégico para resaltar productos clave o secciones de interés. La ausencia de luz focalizada en categorías prioritarias genera un ambiente apagado que no invita a la permanencia ni estimula el deseo de compra. Esto reduce el impacto visual de las exhibiciones y desaprovecha el potencial de venta de artículos destacados.
 
     .row.justify-content-center
       .col-auto.col-xl-10
@@ -119,7 +119,7 @@
                 td <em>Layout.</em>
                 td(colspan="2") Formato lineal con pasillos estrechos.
                 td(colspan="2") Dificulta la circulación y reduce tiempo de permanencia.
-              tr
+              tr(style="background-color: #F9F7F4")
                 td Zona de oro.
                 td(colspan="2") Ocupada por productos de baja rotación.
                 td(colspan="2") Baja conversión de compra en categorías clave.
@@ -127,7 +127,7 @@
                 td Exhibiciones.
                 td(colspan="2") No estandarizadas ni alineadas con la estrategia.
                 td(colspan="2") Reducción de ventas por impulso.
-              tr
+              tr(style="background-color: #F9F7F4")
                 td <em>Branding.</em>
                 td(colspan="2") Inexistente: no hay identidad gráfica definida.
                 td(colspan="2") Pérdida de diferenciación frente a competidores.
@@ -173,35 +173,35 @@
               tr
                 td Rediseño del <em>layout</em>
                 td(colspan="2") Implementación de un layout tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
-              tr
+              tr(style="background-color: #F9F7F4")
                 td Aplicación de planogramas por categorías
                 td(colspan="2") Elaboración técnica con base en rotación, márgenes y complementariedad de productos.
               tr
                 td Reubicación de productos por zonas
                 td(colspan="2")
                   ul.lista-ul--color
-                    li.d-flex
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | Productos de alta rentabilidad en zona de oro.
-                    li.d-flex
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | 
                       div
                         p.mb-0 <em>Cross merchandising</em> con productos complementarios en puntos clave.
-                    li.d-flex
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | Exhibiciones primarias en entradas y cabeceras de góndola.
-              tr
+              tr(style="background-color: #F9F7F4")
                 td Mejoramiento de la experiencia visual y sensorial
                 td(colspan="2")
                   ul.lista-ul--color
-                    li.d-flex
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
-                      | Aplicación de branding interno (colores institucionales, slogan, señalética, uniformes).
-                    li.d-flex
+                      | Aplicación de <em>branding</em> interno (colores institucionales, slogan, señalética, uniformes).
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | Mejora en iluminación LED cálida, uso de aroma ambiental sutil.
-                    li.d-flex
+                    li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | Ambientación musical suave de acuerdo con el perfil del cliente.
               tr
@@ -238,19 +238,19 @@
               tr
                 td Rediseño de layout y mobiliario
                 td $8.500.000
-              tr
+              tr(style="background-color: #F9F7F4")
                 td Producción de señalética
                 td $3.200.000
               tr
                 td Diseño e impresión de planogramas
                 td $1.500.000
-              tr
+              tr(style="background-color: #F9F7F4")
                 td Iluminación LED y ambientación
                 td $6.000.000
               tr
                 td Activaciones mensuales (3 meses)
                 td $4.500.000
-              tr
+              tr(style="background-color: #F9F7F4")
                 td <strong>TOTAL</strong>
                 td <strong>$23.700.000</strong>
 
@@ -281,7 +281,7 @@
                 td(colspan="2") Ticket promedio diario
                 td $18.400
                 td $23.000
-              tr
+              tr(style="background-color: #F9F7F4")
                 td(colspan="2") Rotación de productos por góndola
                 td 2.1
                 td 3.5
@@ -289,7 +289,7 @@
                 td(colspan="2") Ventas por zona caliente
                 td 22 % del total
                 td 35 % del total
-              tr
+              tr(style="background-color: #F9F7F4")
                 td(colspan="2") Tasa de recompra de clientes
                 td 41 %
                 td 60 %
@@ -297,20 +297,20 @@
     Separador
     .row.justify-content-center
       .col-xl-10
-        #t_4_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+        #t_4_6(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
           h3 4.6	Recomendaciones a la gerencia
 
     .row.justify-content-center.mb-4
       .col-xl-10
         .cajon.color-secundario.p-4
-          p.mb-0 Con base en el diagnóstico y la propuesta de intervención desarrollada, se plantean las siguientes recomendaciones dirigidas a la gerencia, orientadas a garantizar la ejecución eficiente del plan de merchandising y maximizar el retorno sobre la inversión. Estas sugerencias se fundamentan en criterios técnicos, buenas prácticas del sector retail y en la necesidad de implementar un modelo escalable y medible que permita una toma de decisiones informada:
+          p.mb-0 Con base en el diagnóstico y la propuesta de intervención desarrollada, se plantean las siguientes recomendaciones dirigidas a la gerencia, orientadas a garantizar la ejecución eficiente del plan de <em>merchandising</em> y maximizar el retorno sobre la inversión. Estas sugerencias se fundamentan en criterios técnicos, buenas prácticas del sector retail y en la necesidad de implementar un modelo escalable y medible que permita una toma de decisiones informada:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-xl-7
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
           p.mb-0 Aprobar la inversión en una fase piloto de tres meses, priorizando las acciones de mayor impacto inmediato (layout, señalética y planogramas), con el fin de validar su efectividad antes de una implementación total.
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
-          p.mb-0 Designar un coordinador interno de merchandising, con formación técnica y capacidad de gestión, que actúe como enlace entre la gerencia y el personal operativo, asegurando el cumplimiento de estándares y cronogramas.
+          p.mb-0 Designar un coordinador interno de <em>merchandising</em>, con formación técnica y capacidad de gestión, que actúe como enlace entre la gerencia y el personal operativo, asegurando el cumplimiento de estándares y cronogramas.
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca
           p.mb-0 Implementar un sistema de seguimiento quincenal que incluya reportes de indicadores clave (ticket promedio, rotación de productos, ventas en zonas calientes y tasa de recompra), lo que permitirá medir avances y ajustar la estrategia en tiempo real.
       .d-none.d-lg-block.col-lg-4.col-xl-3
@@ -341,7 +341,7 @@
     .row.justify-content-center.z-2.mb-5
       .col-lg-10(data-aos="fade-down")
         div.banner-text.bg-color-secundario-s20
-          p.mb-0 El presente análisis técnico demuestra que Supermercado Fresco presenta un alto potencial de mejora mediante la aplicación estructurada de estrategias de merchandising. La propuesta planteada no solo es viable desde el punto de vista financiero, sino que permitirá a la organización competir en igualdad de condiciones frente a grandes cadenas, generando valor para el cliente, eficiencia operativa y crecimiento en ventas.
+          p.mb-0 El presente análisis técnico demuestra que Supermercado Fresco presenta un alto potencial de mejora mediante la aplicación estructurada de estrategias de <em>merchandising</em>. La propuesta planteada no solo es viable desde el punto de vista financiero, sino que permitirá a la organización competir en igualdad de condiciones frente a grandes cadenas, generando valor para el cliente, eficiencia operativa y crecimiento en ventas.
 
 </template>
 

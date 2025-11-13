@@ -22,7 +22,7 @@
 
     Separador
     #t_3_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
-      h3 3.1 <em>Branding</em> y visual <em>merchandising</em>
+      h3 3.1 <em>Branding</em> y <em>visual merchandising</em>
 
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -47,19 +47,19 @@
         p.mb-4 El <em>neuromarketing</em> utiliza hallazgos neurocientíficos para entender las reacciones emocionales de los consumidores y aplicarlos a la estrategia comercial. En el punto de venta, esto implica decisiones de diseño que estimulan áreas cerebrales vinculadas al placer, la memoria o el deseo (Plassmann et al., 2015).
         .p-4.rounded-4.bg-color-primario-p5
           ul.lista-ul--color
-            li
+            li.d-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Vista</strong>: colores, orden y armonía visual.
-            li
+            li.d-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Oído</strong>: música ambiente adaptada a la hora y perfil del cliente.
-            li
+            li.d-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Olfato</strong>: aromas que refuercen la identidad del lugar.
-            li
+            li.d-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Tacto</strong>: materiales y texturas coherentes con el posicionamiento.
-            li
+            li.d-flex.gap-1
               i.fa-solid.fa-check
               | <strong>Gusto</strong>: degustaciones que vinculen el producto con una experiencia positiva.
 
