@@ -14,7 +14,7 @@
       .col-lg-9.col-xl-8
         p Estudiar un caso de aplicación del <em>merchandising</em> resulta fundamental porque permite analizar de manera real y contextualizada cómo las estrategias de exhibición, distribución y ambientación influyen directamente en la experiencia de compra, la rotación de productos y la rentabilidad del negocio. 
         .cajon.color-secundario.p-4
-          p.mb-0 En el caso del Supermercado Mercado Fresco, este análisis se convierte en una herramienta clave para diagnosticar problemas, proponer soluciones basadas en criterios técnicos y proyectar mejoras medibles, lo que facilita la toma de decisiones estratégicas frente a un entorno competitivo en constante cambio.
+          p.mb-0 En el caso del Supermercado Fresco, este análisis se convierte en una herramienta clave para diagnosticar problemas, proponer soluciones basadas en criterios técnicos y proyectar mejoras medibles, lo que facilita la toma de decisiones estratégicas frente a un entorno competitivo en constante cambio.
 
     Separador
     .row.justify-content-center
@@ -37,7 +37,7 @@
             figure
               img(data-aos="fade-down" src="@/assets/curso/temas/tema4/3.png" alt="imagen de acompañamiento")
         .p-4.py-3.border-line.icon-before.icon-before--folder
-          p.mb-0 Contexto general: Fresco es un supermercado tradicional ubicado en una zona residencial de Barranquilla, con una superficie de ventas de aproximadamente 400 m².<br> A pesar de contar con una clientela regular, ha experimentado una disminución en las ventas en los últimos dos trimestres. El entorno competitivo ha cambiado debido a la llegada de cadenas de formato <em>hard discount</em> como Tiendas Ara y D1.<br> Ante esta situación, la gerencia ha solicitado un análisis técnico de <em>merchandising</em> que contemple acciones viables para revitalizar el punto de venta, aumentar el ticket promedio y fidelizar a los clientes actuales.
+          p.mb-0 Contexto general: Fresco es un supermercado tradicional ubicado en una zona residencial de Barranquilla, con una superficie de ventas de aproximadamente 400 m².<br> A pesar de contar con una clientela regular, ha experimentado una disminución en las ventas en los últimos dos trimestres. El entorno competitivo ha cambiado debido a la llegada de cadenas de formato <em>hard discount</em> como Tiendas Ara y D1.<br> Ante esta situación, la gerencia ha solicitado un análisis técnico de <em>merchandising</em> que contemple acciones viables para revitalizar el punto de venta, aumentar el <em>ticket</em> promedio y fidelizar a los clientes actuales.
 
     Separador
     .row.justify-content-center
@@ -53,7 +53,7 @@
               figure
                 img(data-aos="fade-down" src="@/assets/curso/temas/tema4/6.svg" alt="imagen de acompañamiento")
             .col-lg-11
-              p.mb-0 Mediante un proceso de observación directa en el punto de venta, complementado con una auditoría del layout y entrevistas estructuradas al personal operativo y administrativo, se identificaron las siguientes problemáticas que afectan de manera directa la eficiencia comercial y la experiencia del cliente:
+              p.mb-0 Mediante un proceso de observación directa en el punto de venta, complementado con una auditoría del <em>layout</em> y entrevistas estructuradas al personal operativo y administrativo, se identificaron las siguientes problemáticas que afectan de manera directa la eficiencia comercial y la experiencia del cliente:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-sm-4.col-lg-4.col-xl-3
@@ -61,7 +61,7 @@
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema4/7.png" alt="imagen de acompañamiento")
       .col-lg-8.col-xl-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-terciario-t20")
-          .row(titulo="Falta de planificación en el layout comercial")
+          .row(titulo="Falta de planificación en el <em>layout</em> comercial")
             .col-md-10.mb-4.mb-md-0
               p.ms-2.ps-5 Las góndolas presentan una organización aleatoria sin un flujo de circulación definido. Esto provoca que el recorrido del cliente sea desordenado, reduciendo la exposición a productos estratégicos y limitando las oportunidades de compra por impulso. Además, dificulta la implementación de estrategias de ventas cruzadas y disminuye el tiempo de permanencia en el establecimiento.
           .row(titulo="Ausencia total de planogramas")
@@ -69,7 +69,7 @@
               p.ms-2.ps-5 La ubicación y disposición de los productos dependen del criterio subjetivo del personal operativo, lo que genera inconsistencias en la exhibición. Esta ausencia de estandarización dificulta la reposición eficiente, afecta la coherencia visual de la tienda y transmite una imagen de desorganización que puede impactar negativamente en la percepción del cliente.
           .row(titulo="Espacios subutilizados")
             .col-md-10.mb-4.mb-md-0
-              p.ms-2.ps-5 Las denominadas “zonas calientes”; áreas con mayor tránsito y visibilidad, no han sido identificadas ni aprovechadas para potenciar la rotación de productos de alta rentabilidad. Esto representa una pérdida de oportunidades para incrementar ventas, mejorar el ticket promedio y fortalecer la presencia de marcas estratégicas en puntos clave.
+              p.ms-2.ps-5 Las denominadas “zonas calientes”; áreas con mayor tránsito y visibilidad, no han sido identificadas ni aprovechadas para potenciar la rotación de productos de alta rentabilidad. Esto representa una pérdida de oportunidades para incrementar ventas, mejorar el <em>ticket</em> promedio y fortalecer la presencia de marcas estratégicas en puntos clave.
           .row(titulo="Deficiencia en señalética y escasa comunicación visual")
             .col-md-10.mb-4.mb-md-0
               p.ms-2.ps-5 La señalización interna es insuficiente y muchas promociones no cuentan con material visual atractivo ni precios visibles. Esta carencia dificulta que el cliente identifique ofertas o promociones, reduce la claridad en la información y puede generar desconfianza en el proceso de compra. La falta de precios estandarizados también limita la competitividad y la transparencia percibida.
@@ -172,10 +172,18 @@
             tbody
               tr
                 td Rediseño del <em>layout</em>
-                td(colspan="2") Implementación de un layout tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
+                td(colspan="2") 
+                  ul.lista-ul--color
+                      li.d-flex.gap-1
+                        i.fa-solid.fa-check
+                        | Implementación de un <em>layout</em> tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
               tr(style="background-color: #F9F7F4")
                 td Aplicación de planogramas por categorías
-                td(colspan="2") Elaboración técnica con base en rotación, márgenes y complementariedad de productos.
+                td(colspan="2") 
+                  ul.lista-ul--color
+                      li.d-flex.gap-1
+                        i.fa-solid.fa-check
+                        | Elaboración técnica con base en rotación, márgenes y complementariedad de productos.
               tr
                 td Reubicación de productos por zonas
                 td(colspan="2")
@@ -206,7 +214,11 @@
                       | Ambientación musical suave de acuerdo con el perfil del cliente.
               tr
                 td Activaciones y promociones semanales
-                td(colspan="2") Plan mensual de activaciones por categoría (lácteos, snacks, higiene personal) con degustaciones y dinámicas de fidelización.
+                td(colspan="2") 
+                  ul.lista-ul--color
+                      li.d-flex.gap-1
+                        i.fa-solid.fa-check
+                        | Plan mensual de activaciones por categoría (lácteos, <em>snacks</em>, higiene personal) con degustaciones y dinámicas de fidelización.
 
     Separador
     .row.justify-content-center
@@ -236,23 +248,23 @@
                 th Valor estimado (COP)
             tbody
               tr
-                td Rediseño de layout y mobiliario
-                td $8.500.000
+                td Rediseño de <em>layout</em> y mobiliario
+                td $ 8.500.000
               tr(style="background-color: #F9F7F4")
                 td Producción de señalética
-                td $3.200.000
+                td $ 3.200.000
               tr
                 td Diseño e impresión de planogramas
-                td $1.500.000
+                td $ 1.500.000
               tr(style="background-color: #F9F7F4")
                 td Iluminación LED y ambientación
-                td $6.000.000
+                td $ 6.000.000
               tr
                 td Activaciones mensuales (3 meses)
-                td $4.500.000
+                td $ 4.500.000
               tr(style="background-color: #F9F7F4")
                 td <strong>TOTAL</strong>
-                td <strong>$23.700.000</strong>
+                td <strong>$ 23.700.000</strong>
 
       .col-8.col-sm-6.col-lg-4.col-xl-3
         figure
@@ -278,9 +290,9 @@
                 th Meta a 3 meses
             tbody
               tr
-                td(colspan="2") Ticket promedio diario
-                td $18.400
-                td $23.000
+                td(colspan="2") <em>Ticket</em> promedio diario
+                td $ 18.400
+                td $ 23.000
               tr(style="background-color: #F9F7F4")
                 td(colspan="2") Rotación de productos por góndola
                 td 2.1
@@ -308,7 +320,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-xl-7
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
-          p.mb-0 Aprobar la inversión en una fase piloto de tres meses, priorizando las acciones de mayor impacto inmediato (layout, señalética y planogramas), con el fin de validar su efectividad antes de una implementación total.
+          p.mb-0 Aprobar la inversión en una fase piloto de tres meses, priorizando las acciones de mayor impacto inmediato (<em>layout</em>, señalética y planogramas), con el fin de validar su efectividad antes de una implementación total.
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
           p.mb-0 Designar un coordinador interno de <em>merchandising</em>, con formación técnica y capacidad de gestión, que actúe como enlace entre la gerencia y el personal operativo, asegurando el cumplimiento de estándares y cronogramas.
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca
@@ -325,12 +337,7 @@
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
           p.mb-0 Evaluar el Retorno sobre la Inversión (ROI) al finalizar la fase piloto, utilizando métricas financieras y de comportamiento del cliente para determinar la viabilidad de escalar el modelo a otras áreas o sucursales.
         .p-4.py-3.bg-color-acento-contenido-a5.rounded-4.icon-before.icon-before--tuerca.mb-3
-          p.mb-0 Establecer un protocolo de actualización continua de planogramas, layout y acciones promocionales, evitando que la mejora inicial se diluya y asegurando la sostenibilidad de los resultados a mediano y largo plazo.
-        
-        
-
-
-
+          p.mb-0 Establecer un protocolo de actualización continua de planogramas, <em>layout</em> y acciones promocionales, evitando que la mejora inicial se diluya y asegurando la sostenibilidad de los resultados a mediano y largo plazo.
 
     Separador
     #t_4_7(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2

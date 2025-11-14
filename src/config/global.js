@@ -217,7 +217,7 @@ export default {
     {
       tema: 'Caso de estudio aplicabilidad.',
       referencia:
-        'Ríos Quiñónez, M. B. (2024). Análisis del <em>merchandising</em> visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
+        'Ríos Quiñónez, M. B. (2024). Análisis del <em>visual merchandising</em> como estrategia de diseño y disposición de productos en farmacias independientes del DMQ. Res Non Verba Revista Científica, 14(1), 1–17.',
       tipo: 'Revista',
       link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
@@ -226,7 +226,7 @@ export default {
     {
       termino: 'Activación',
       significado:
-        'Estrategia de marketing experiencial que busca generar interacción directa entre el consumidor y la marca en el punto de venta.',
+        'Estrategia de <em>marketing</em> experiencial que busca generar interacción directa entre el consumidor y la marca en el punto de venta.',
     },
 
     {
@@ -290,7 +290,7 @@ export default {
     },
 
     {
-      termino: 'Layout',
+      termino: '<em>Layout</em>',
       significado:
         'Diseño o distribución física del espacio comercial que define el recorrido y disposición de mobiliario y productos.',
     },
@@ -302,9 +302,9 @@ export default {
     },
 
     {
-      termino: 'Neuromarketing',
+      termino: '<em>Neuromarketing</em> ',
       significado:
-        'Aplicación de técnicas de neurociencia para analizar las respuestas emocionales del consumidor frente a estímulos de marketing.',
+        'Aplicación de técnicas de neurociencia para analizar las respuestas emocionales del consumidor frente a estímulos de <em>marketing</em>.',
     },
 
     {
@@ -314,7 +314,7 @@ export default {
     },
 
     {
-      termino: 'POP (Point of Purchase)',
+      termino: 'POP (<em>Point of Purchase</em>)',
       significado:
         'Material publicitario ubicado en el punto de venta para apoyar la comunicación visual de promociones o productos.',
     },
@@ -381,7 +381,7 @@ export default {
 
     {
       referencia:
-        'Ríos Quiñónez, M. B. (2024). <em>Análisis del merchandising visual como estrategia de diseño y disposición de productos en farmacias independientes del DMQ</em>. Res Non Verba Revista Científica, 14(1), 1–17.',
+        'Ríos Quiñónez, M. B. (2024). <em>Análisis del <em>visual merchandising</em> como estrategia de diseño y disposición de productos en farmacias independientes del DMQ</em>. Res Non Verba Revista Científica, 14(1), 1–17.',
       link: 'https://revistas.ecotec.edu.ec/index.php/rnv/article/view/840',
     },
   ],

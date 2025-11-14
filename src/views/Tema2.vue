@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El <em>merchandising</em> va más allá de la organización física; su propósito principal es activar la compra. Por ello, el uso de técnicas de estimulación sensorial, promociones y asociaciones estratégicas es clave para generar ventas no planificadas y aumentar el valor del ticket promedio.
+        p.mb-0 El <em>merchandising</em> va más allá de la organización física; su propósito principal es activar la compra. Por ello, el uso de técnicas de estimulación sensorial, promociones y asociaciones estratégicas es clave para generar ventas no planificadas y aumentar el valor del <em>ticket</em> promedio.
 
     .row.justify-content-center
       .col-xl-10
@@ -35,9 +35,9 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down" src="@/assets/curso/temas/tema2/3.png" alt="imagen de acompañamiento")
       .col-lg-8.col-xl-7
-        p El <em>cross merchandising</em> es una estrategia que consiste en agrupar productos complementarios en un mismo espacio para inducir la compra conjunta. Por ejemplo, exhibir vino junto a quesos o café junto a galletas. Esta técnica favorece la conveniencia y aumenta el valor del ticket promedio.
+        p El <em>cross merchandising</em> es una estrategia que consiste en agrupar productos complementarios en un mismo espacio para inducir la compra conjunta. Por ejemplo, exhibir vino junto a quesos o café junto a galletas. Esta técnica favorece la conveniencia y aumenta el valor del <em>ticket</em> promedio.
         .cajon.color-secundario.p-4
-          p.mb-0 Las ventas impulsivas, por otro lado, se activan mediante la ubicación estratégica de productos en zonas de tránsito obligado, como cajas registradoras o entradas. Artículos de bajo precio, novedades o productos sensoriales (dulces, snacks, cosméticos) son ideales para estas zonas.
+          p.mb-0 Las ventas impulsivas, por otro lado, se activan mediante la ubicación estratégica de productos en zonas de tránsito obligado, como cajas registradoras o entradas. Artículos de bajo precio, novedades o productos sensoriales (dulces, <em>snacks</em>, cosméticos) son ideales para estas zonas.
 
     .row.justify-content-center.mb-4
       .col-xl-10
@@ -54,7 +54,7 @@
         .p-4.bg-color-terciario-t20.rounded-4.icon-before.icon-before--video.mb-3.mb-lg-0.h-100.d-flex.align-items-center.justify-content-evenly
           .d-flex.justify-content-center.align-items-center.flex-column.gap-4.flex-sm-row
             div
-              p.mb-0 <strong>¿Qué es una exhibición en cross category? ¿Cómo exhibir en <em>cross merchandising</em>?</strong> Ir al siguiente video, el cual aportará conocimientos relevantes y reforzará contenido de relacionado con el tema <em>cross merchandising</em> y ventas impulsivas.
+              p.mb-0 <strong>¿Qué es una exhibición en <em>cross category</em>? ¿Cómo exhibir en <em>cross merchandising</em>?</strong> Ir al siguiente video, el cual aportará conocimientos relevantes y reforzará contenido de relacionado con el tema <em>cross merchandising</em> y ventas impulsivas.
 
             div.width-minimo
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hnZfiJAA1nU" target="_blank")
@@ -105,7 +105,7 @@
                   | Producto adicional: compra un shampoo y recibe acondicionador gratis.
                 li.d-flex.gap-1
                   i.fa-solid.fa-check
-                  | Empaque promocional: pack ahorro o combo familiar.
+                  | Empaque promocional: <em>pack</em> ahorro o combo familiar.
 
             .tarjeta.tarjeta--blanca.p-4
               h5.mb-4 Promociones emocionales	

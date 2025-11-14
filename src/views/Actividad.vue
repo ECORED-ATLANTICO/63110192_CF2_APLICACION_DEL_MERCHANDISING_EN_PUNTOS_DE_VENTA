@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'El layout tipo grid es el más utilizado en tiendas de ropa de lujo.',
+            'El <em>layout</em> tipo grid es el más utilizado en tiendas de ropa de lujo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -234,7 +234,8 @@ export default {
         },
         {
           id: 10,
-          texto: 'El marketing sensorial solo se enfoca en la vista y el oído.',
+          texto:
+            'El <em>marketing</em> sensorial solo se enfoca en la vista y el oído.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -257,7 +258,7 @@ export default {
         {
           id: 11,
           texto:
-            'El neuromarketing aplica técnicas de neurociencia para comprender las respuestas emocionales del consumidor.',
+            'El <em>neuromarketing</em> aplica técnicas de neurociencia para comprender las respuestas emocionales del consumidor.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -395,7 +396,7 @@ export default {
         {
           id: 17,
           texto:
-            'El layout tipo loop o racetrack guía al consumidor por un circuito cerrado.',
+            'El <em>layout</em> tipo loop o racetrack guía al consumidor por un circuito cerrado.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -463,7 +464,7 @@ export default {
         {
           id: 20,
           texto:
-            'El aroma a pan recién horneado es un ejemplo de marketing sensorial aplicado al olfato.',
+            'El aroma a pan recién horneado es un ejemplo de <em>marketing</em> sensorial aplicado al olfato.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [

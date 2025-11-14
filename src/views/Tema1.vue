@@ -14,8 +14,8 @@
       .col-lg-8.col-xl-7
         p La organización del espacio en el punto de venta representa un elemento fundamental en la estrategia comercial del <em>merchandising</em>, ya que influye directamente en el comportamiento del consumidor, en la experiencia de compra y en los niveles de conversión. Una disposición eficiente permite maximizar el uso del área disponible, generar un flujo lógico de circulación, destacar productos estratégicos y reforzar la imagen del establecimiento.
         .cajon.color-secundario.p-4.mb-3
-          p.mb-0 Según Martínez Cruz (s. f.), el diseño del espacio debe ser funcional, estético y adaptado al perfil del consumidor, teniendo en cuenta los principios de circulación, visibilidad, accesibilidad y jerarquía de productos. El layout, o diseño de la planta del local, debe diseñarse para orientar al cliente a recorrer la mayor parte del espacio disponible, facilitando el contacto visual con los productos de mayor margen.
-        p Entre los layouts más comunes se encuentran:
+          p.mb-0 Según Martínez Cruz (s. f.), el diseño del espacio debe ser funcional, estético y adaptado al perfil del consumidor, teniendo en cuenta los principios de circulación, visibilidad, accesibilidad y jerarquía de productos. El <em>layout</em>, o diseño de la planta del local, debe diseñarse para orientar al cliente a recorrer la mayor parte del espacio disponible, facilitando el contacto visual con los productos de mayor margen.
+        p Entre los <em>layouts</em> más comunes se encuentran:
         ul.lista-ul--color
           li.d-flex.gap-1
             i.fa-solid.fa-check
@@ -62,7 +62,7 @@
               figure
                 img.w-60(data-aos="fade-down" src="@/assets/curso/temas/tema1/4.svg" alt="imagen de acompañamiento")
             .col-lg-10
-              p.mb-0 Estas exhibiciones deben estar alineadas con el plan de marketing y los objetivos comerciales del punto de venta. El uso coherente de material POP, iluminación específica y señalética mejora la experiencia visual del consumidor (Editorial GG, 2016).
+              p.mb-0 Estas exhibiciones deben estar alineadas con el plan de <em>marketing</em> y los objetivos comerciales del punto de venta. El uso coherente de material POP, iluminación específica y señalética mejora la experiencia visual del consumidor (Editorial GG, 2016).
 
     Separador
     .row.justify-content-center
@@ -114,7 +114,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El escaparatismo es una disciplina del <em>merchandising</em> visual que se encarga del diseño, planificación y montaje de los escaparates o vitrinas comerciales, con el objetivo de atraer la atención del público, comunicar mensajes de marca y estimular el deseo de compra. Va más allá de una simple exposición de productos: es una forma de comunicación visual estratégica, donde cada elemento desde la iluminación hasta la disposición de los objetos está pensado para generar un impacto emocional y sensorial en el consumidor.
+        p.mb-0 El escaparatismo es una disciplina del <em>visual merchandising</em> que se encarga del diseño, planificación y montaje de los escaparates o vitrinas comerciales, con el objetivo de atraer la atención del público, comunicar mensajes de marca y estimular el deseo de compra. Va más allá de una simple exposición de productos: es una forma de comunicación visual estratégica, donde cada elemento desde la iluminación hasta la disposición de los objetos está pensado para generar un impacto emocional y sensorial en el consumidor.
 
     .row.justify-content-center.mb-5.z-2
       .col-xl-10
@@ -137,7 +137,7 @@
             .row.align-items-center.justify-content-evenly
               .col-sm-10.col-lg-5.col-xl-4
                 h5.mb-4 Producto	
-                p.mb-4.mb-lg-0 Es el elemento central de la vitrina. Debe presentarse de manera destacada, limpia y accesible visualmente. La selección de productos depende del objetivo de la campaña: puede ser promocional, de temporada o institucional
+                p.mb-4.mb-lg-0 Es el elemento central de la vitrina. Debe presentarse de manera destacada, limpia y accesible visualmente. La selección de productos depende del objetivo de la campaña: puede ser promocional, de temporada o institucional.
               .col-sm-10.col-lg-6.col-xl-6
                 figure
                   img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/23.png', alt='Imagen ilustrativa')
@@ -234,11 +234,11 @@
                 figure
                   img(src="@/assets/curso/temas/tema1/9.png")
 
-          .tarjeta.bg-color-primario-p10.p-4.pt-5.h-100.d-flex.align-items-center(titulo="Diseño del planograma con software")
+          .tarjeta.bg-color-primario-p10.p-4.pt-5.h-100.d-flex.align-items-center(titulo="Diseño del planograma con <em>software</em>")
             .row.align-items-center.justify-content-around
               .col-12.col-sm-7
-                h5.mb-4 Diseño del planograma con software
-                p.mb-4 Se usa software especializado y se valida con gestores de categoría.
+                h5.mb-4 Diseño del planograma con <em>software</em>
+                p.mb-4 Se usa <em>software</em> especializado y se valida con gestores de categoría.
                 p.mb-4 <strong>Objetivo principal</strong>: Alinear el diseño con metas comerciales.
               .col-4.col-sm-3
                 figure
@@ -248,7 +248,7 @@
             .row.align-items-center.justify-content-around
               .col-12.col-sm-7
                 h5.mb-4 Formación del personal en <em>visual merchandising</em>
-                p.mb-4 Se capacita al equipo sobre el uso del software y normas de exhibición.
+                p.mb-4 Se capacita al equipo sobre el uso del <em>software</em> y normas de exhibición.
                 p.mb-4 <strong>Objetivo principal</strong>: Asegurar ejecución coherente en tiendas.
               .col-4.col-sm-3
                 figure

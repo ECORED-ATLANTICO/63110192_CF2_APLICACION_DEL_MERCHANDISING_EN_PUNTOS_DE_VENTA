@@ -47,21 +47,26 @@
         p.mb-4 El <em>neuromarketing</em> utiliza hallazgos neurocientíficos para entender las reacciones emocionales de los consumidores y aplicarlos a la estrategia comercial. En el punto de venta, esto implica decisiones de diseño que estimulan áreas cerebrales vinculadas al placer, la memoria o el deseo (Plassmann et al., 2015).
         .p-4.rounded-4.bg-color-primario-p5
           ul.lista-ul--color
-            li.d-lg-flex.gap-1
+            li.d-flex.gap-1
               i.fa-solid.fa-check
-              | <strong>Vista</strong>: colores, orden y armonía visual.
-            li.d-lg-flex.gap-1
+              div
+                p <strong>Vista</strong>: colores, orden y armonía visual.
+            li.d-flex.gap-1
               i.fa-solid.fa-check
-              | <strong>Oído</strong>: música ambiente adaptada a la hora y perfil del cliente.
-            li.d-lg-flex.gap-1
+              div
+                p <strong>Oído</strong>: música ambiente adaptada a la hora y perfil del cliente.
+            li.d-flex.gap-1
               i.fa-solid.fa-check
-              | <strong>Olfato</strong>: aromas que refuercen la identidad del lugar.
-            li.d-lg-flex.gap-1
+              div
+                p <strong>Olfato</strong>: aromas que refuercen la identidad del lugar.
+            li.d-flex.gap-1
               i.fa-solid.fa-check
-              | <strong>Tacto</strong>: materiales y texturas coherentes con el posicionamiento.
-            li.d-lg-flex.gap-1
+              div
+                p <strong>Tacto</strong>: materiales y texturas coherentes con el posicionamiento.
+            li.d-flex.gap-1
               i.fa-solid.fa-check
-              | <strong>Gusto</strong>: degustaciones que vinculen el producto con una experiencia positiva.
+              div
+                p <strong>Gusto</strong>: degustaciones que vinculen el producto con una experiencia positiva.
 
       .col-lg-3.col-xl-2.d-none.d-lg-block
         figure
@@ -85,10 +90,10 @@
     .row.justify-content-center
       .col-xl-10
         TabsA.color-primario
-          .tarjeta.bg-color-primario-p10.p-4.pt-5(titulo="<em>Merchandising</em> visual")
+          .tarjeta.bg-color-primario-p10.p-4.pt-5(titulo="<em>Visual merchandising</em>")
             .row.align-items-center.justify-content-center
               .col-12.col-sm-8
-                h5 <em>Merchandising</em> visual
+                h5 <em>Visual merchandising</em>
                 p Presentación estratégica del espacio y productos para comunicar la identidad de marca.
                 p <strong>Ejemplo</strong>: tienda de ropa que utiliza maniquíes temáticos y vitrinas estacionales coherentes con su campaña.
               .col-4.col-sm-2
@@ -120,7 +125,7 @@
               .col-12.col-sm-8
                 h5 <em>Marketing</em> sensorial
                 p Estimulación coordinada de los sentidos para reforzar la experiencia de compra.
-                p <strong>Ejemplo</strong>: aroma a pan recién horneado en la sección de panadería; música lounge en zona <em>gourmet</em>.
+                p <strong>Ejemplo</strong>: aroma a pan recién horneado en la sección de panadería; música <em>lounge</em> en zona <em>gourmet</em>.
               .col-4.col-sm-2
                 figure
                   img.w-72(src="@/assets/curso/temas/tema3/8.png")
