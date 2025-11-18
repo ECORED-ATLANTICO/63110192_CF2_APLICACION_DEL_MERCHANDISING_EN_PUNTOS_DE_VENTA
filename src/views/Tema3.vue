@@ -44,7 +44,8 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9.col-xl-8
-        p.mb-4 El <em>neuromarketing</em> utiliza hallazgos neurocientíficos para entender las reacciones emocionales de los consumidores y aplicarlos a la estrategia comercial. En el punto de venta, esto implica decisiones de diseño que estimulan áreas cerebrales vinculadas al placer, la memoria o el deseo (Plassmann et al., 2015).
+        p El <em>neuromarketing</em> utiliza hallazgos neurocientíficos para entender las reacciones emocionales de los consumidores y aplicarlos a la estrategia comercial. En el punto de venta, esto implica decisiones de diseño que estimulan áreas cerebrales vinculadas al placer, la memoria o el deseo (Plassmann et al., 2015).
+        p.mb-4 Por su parte, el <em>marketing</em> sensorial busca estimular los cinco sentidos para crear una experiencia inmersiva:
         .p-4.rounded-4.bg-color-primario-p5
           ul.lista-ul--color
             li.d-flex.gap-1

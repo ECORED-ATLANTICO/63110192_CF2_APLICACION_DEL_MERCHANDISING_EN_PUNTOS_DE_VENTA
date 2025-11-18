@@ -178,7 +178,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA2_63110192_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -250,7 +250,7 @@ export default {
     {
       termino: 'Circulación',
       significado:
-        'Flujo de desplazamiento de los clientes dentro del punto de venta, influido por el diseño del layout.',
+        'Flujo de desplazamiento de los clientes dentro del punto de venta, influido por el diseño del <em>layout</em>.',
     },
 
     {

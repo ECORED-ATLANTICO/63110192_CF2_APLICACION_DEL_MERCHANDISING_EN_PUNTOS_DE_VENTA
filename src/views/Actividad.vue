@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'El <em>layout</em> tipo grid es el más utilizado en tiendas de ropa de lujo.',
+            'El <em>layout</em> tipo <em>grid</em> es el más utilizado en tiendas de ropa de lujo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -396,7 +396,7 @@ export default {
         {
           id: 17,
           texto:
-            'El <em>layout</em> tipo loop o racetrack guía al consumidor por un circuito cerrado.',
+            'El <em>layout</em> tipo <em>loop</em> o <em>racetrack</em> guía al consumidor por un circuito cerrado.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

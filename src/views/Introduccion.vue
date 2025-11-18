@@ -26,7 +26,7 @@
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/edw8wRj4gEQ" title="Ejecución del merchandising" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/IwPFwZXD6HA" title="Ejecución del merchandising" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Ejecución del <em>merchandising</em>
 
 </template>

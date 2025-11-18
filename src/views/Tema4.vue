@@ -176,7 +176,9 @@
                   ul.lista-ul--color
                       li.d-flex.gap-1
                         i.fa-solid.fa-check
-                        | Implementación de un <em>layout</em> tipo loop o racetrack para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
+                        | 
+                        div
+                          p.mb-0 Implementación de un <em>layout</em> tipo <em>loop</em> o <em>racetrack</em> para conducir al cliente a través de toda la tienda, priorizando el contacto con zonas calientes.
               tr(style="background-color: #F9F7F4")
                 td Aplicación de planogramas por categorías
                 td(colspan="2") 
@@ -186,7 +188,7 @@
                         | Elaboración técnica con base en rotación, márgenes y complementariedad de productos.
               tr
                 td Reubicación de productos por zonas
-                td(colspan="2")
+                td(colspan="2") 
                   ul.lista-ul--color
                     li.d-flex.gap-1
                       i.fa-solid.fa-check
@@ -205,7 +207,9 @@
                   ul.lista-ul--color
                     li.d-flex.gap-1
                       i.fa-solid.fa-check
-                      | Aplicación de <em>branding</em> interno (colores institucionales, slogan, señalética, uniformes).
+                      | 
+                      div
+                        p.mb-0 Aplicación de <em>branding</em> interno (colores institucionales, slogan, señalética, uniformes).
                     li.d-flex.gap-1
                       i.fa-solid.fa-check
                       | Mejora en iluminación LED cálida, uso de aroma ambiental sutil.
@@ -216,9 +220,11 @@
                 td Activaciones y promociones semanales
                 td(colspan="2") 
                   ul.lista-ul--color
-                      li.d-flex.gap-1
-                        i.fa-solid.fa-check
-                        | Plan mensual de activaciones por categoría (lácteos, <em>snacks</em>, higiene personal) con degustaciones y dinámicas de fidelización.
+                    li.d-flex.gap-1
+                      i.fa-solid.fa-check
+                      | 
+                      div
+                        p.mb-0 Plan mensual de activaciones por categoría (lácteos, <em>snacks</em>, higiene personal) con degustaciones y dinámicas de fidelización.
 
     Separador
     .row.justify-content-center
@@ -315,7 +321,7 @@
     .row.justify-content-center.mb-4
       .col-xl-10
         .cajon.color-secundario.p-4
-          p.mb-0 Con base en el diagnóstico y la propuesta de intervención desarrollada, se plantean las siguientes recomendaciones dirigidas a la gerencia, orientadas a garantizar la ejecución eficiente del plan de <em>merchandising</em> y maximizar el retorno sobre la inversión. Estas sugerencias se fundamentan en criterios técnicos, buenas prácticas del sector retail y en la necesidad de implementar un modelo escalable y medible que permita una toma de decisiones informada:
+          p.mb-0 Con base en el diagnóstico y la propuesta de intervención desarrollada, se plantean las siguientes recomendaciones dirigidas a la gerencia, orientadas a garantizar la ejecución eficiente del plan de <em>merchandising</em> y maximizar el retorno sobre la inversión. Estas sugerencias se fundamentan en criterios técnicos, buenas prácticas del sector <em>retail</em> y en la necesidad de implementar un modelo escalable y medible que permita una toma de decisiones informada:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-xl-7

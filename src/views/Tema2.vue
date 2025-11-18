@@ -102,10 +102,14 @@
                   | Bonificación: 50 ml extra sin costo.
                 li.d-flex.gap-1
                   i.fa-solid.fa-check
-                  | Producto adicional: compra un shampoo y recibe acondicionador gratis.
+                  | 
+                  div
+                    p.mb-0 Producto adicional: compra un <em>shampoo</em> y recibe acondicionador gratis.
                 li.d-flex.gap-1
                   i.fa-solid.fa-check
-                  | Empaque promocional: <em>pack</em> ahorro o combo familiar.
+                  | 
+                  div
+                    p.mb-0 Empaque promocional: <em>pack</em> ahorro o combo familiar.
 
             .tarjeta.tarjeta--blanca.p-4
               h5.mb-4 Promociones emocionales	
