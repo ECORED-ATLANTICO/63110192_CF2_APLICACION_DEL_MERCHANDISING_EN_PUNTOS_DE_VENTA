@@ -302,7 +302,7 @@ export default {
     },
 
     {
-      termino: '<em>Neuromarketing</em> ',
+      termino: '<em>Neuromarketing</em>',
       significado:
         'Aplicación de técnicas de neurociencia para analizar las respuestas emocionales del consumidor frente a estímulos de <em>marketing</em>.',
     },
@@ -406,7 +406,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Yezid Arturo Choperena Guerrero',
+          nombre: 'Mario Morales Cabrera',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -421,8 +421,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Antonio Vecino Valero',
-          cargo: 'Diseñador <i>web</i>',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñadora <i>web</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -431,7 +431,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Alexander Rafael Acosta Bedoya',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

@@ -350,8 +350,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Beneficios de implementar planogramas correctamente 
-        img.d-sm-none.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16-mob.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
-        img.d-none.d-sm-block.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16.png', alt='La figura muestra como debe ser la ubicación de los productos en un estante según altura entre 30 cms y 60 cms.')
+        img.d-sm-none.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16-mob.png', alt='La figura muestra las diferentes ventajas de aplicar de realizar y aplicar planogramas. - Colocación de productos mejorada. Trae incremento de ventas del 5 % al 15 %. - Mejor utilización del espacio. Aumento de ventas del 5 % al 10 %. - Mejora de la experiencia del cliente.  62 %. Los consumidores prefieren una experiencia de compra personalizada. - Operaciones racionalizadas. 20%. Mejora la productividad laboral. - Toma de decisiones basadas en datos. 60%. Aumento de los márgenes de ingreso.')
+        img.d-none.d-sm-block.mb-2(data-aos="fade-down", src='@/assets/curso/temas/tema1/16.png', alt='La figura muestra las diferentes ventajas de aplicar de realizar y aplicar planogramas. - Colocación de productos mejorada. Trae incremento de ventas del 5 % al 15 %. - Mejor utilización del espacio. Aumento de ventas del 5 % al 10 %. - Mejora de la experiencia del cliente.  62 %. Los consumidores prefieren una experiencia de compra personalizada. - Operaciones racionalizadas. 20%. Mejora la productividad laboral. - Toma de decisiones basadas en datos. 60%. Aumento de los márgenes de ingreso.')
         figcaption <strong>Fuente:</strong> SENA, 2025.
 
 </template>
